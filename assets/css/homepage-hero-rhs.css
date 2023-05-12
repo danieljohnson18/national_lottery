@@ -1,0 +1,656 @@
+.cuk_rhs_copy_colour_override {
+    color: navy !important;
+  }
+  
+  .tnl.brand_bg_royal.cuk_hpopt_checkresults.p3_grid_12_bg_1 {
+   background-image: url("/c/i/css/hpopt-p3-grid12/p3-your-ticket-desktop.jpg") !important;
+   background-repeat: no-repeat !important;
+   background-size: cover;
+  }
+  
+  .tnl.brand_bg_royal.cuk_hpopt_checkresults.p3_grid_12_bg_2 {
+   background-image: url("/c/i/css/hpopt-p3-grid12/p3-download-app-desktop.jpg") !important;
+   background-repeat: no-repeat !important;
+   background-size: cover;
+  }
+  
+  .tnl.brand_bg_royal.cuk_hpopt_checkresults.p3_grid_12_bg_3 {
+   background-image: url("/c/i/css/hpopt-p3-grid12/p3-how-to-claim-desktop.jpg") !important;
+   background-repeat: no-repeat !important;
+   background-size: cover;
+  }
+  
+  .tnl.brand_bg_royal.cuk_hpopt_checkresults.p3_grid_12_bg_4 {
+   background-image: url("/c/i/css/hpopt-p3-grid12/p3-my-account-desktop.jpg") !important;
+   background-repeat: no-repeat !important;
+   background-size: cover;
+  }
+  
+  .tnl.brand_bg_royal.cuk_hpopt_checkresults[class*=p3_grid_12_bg_] .cuk_inner h2 {
+    width: 80%
+  }
+    
+  .tnl.brand_bg_royal.cuk_hpopt_checkresults[class*=p3_grid_12_bg_] p.p3_grid_12_desc {
+    width: 80%;
+    display: inline-block;
+  }
+  
+  .tnl.brand_bg_royal.cuk_hpopt_checkresults[class*=p3_grid_12_bg_] p.p3_grid_12_cta {
+    float: right;
+    display: inline-block;
+    width: 19%;
+  }
+  
+  .cuk_hpopt_checkresults a[href*="/results/"] {
+    margin-right: 3vw;
+  }
+  
+  .tnl.brand_bg_royal.cuk_hpopt_checkresults.p3_grid_12_bg_3 a[href*="/results/"] {
+    margin-right: 0vw;
+  }
+  
+  
+  .cuk_rhs_bg_image_dream_big_balls:before {
+   background-image: url("/c/i/css/rhs-backgrounds/DreamBigPlaySmall_Balls.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_wins_generic:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Wins_Generic.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_wins_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Wins_Euromillions.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_wins_euromillions_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Wins_EuromillionsHotpicks.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_wins_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Wins_Lotto.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_wins_lotto_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Wins_LottoHotpicks.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_wins_thunderball:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Wins_Thunderball.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_wins_set_for_life:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Wins_SetForLife.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_upsell_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Upsell_Euromillions.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_upsell_euromillions_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Upsell_EuromillionsHotpicks.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_upsell_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Upsell_Lotto.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_upsell_lotto_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Upsell_LottoHotpicks.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_upsell_thunderball:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Upsell_Thunderball.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_upsell_set_for_life:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Upsell_SetForLife.png") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_replay_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Replay_Lotto.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_replay_lotto_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Replay_Lotto_Hotpicks.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_replay_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Replay_EuroMillions.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_replay_euromillions_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Replay_EuroMillions_Hotpicks.jpg~d625") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_replay_thunderball:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Replay_Thunderball.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+    
+  .cuk_rhs_bg_image_replay_set_for_life:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Replay_SetForLife.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_replay_iwgs:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Replay_IWG.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_subscribe_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Subscribe_Lotto.jpg~94c6") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_subscribe_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Subscribe_EuroMillions.jpg~1a17") !important;
+   background-repeat: no-repeat !important;
+  } 
+  
+  .cuk_rhs_bg_image_subscribe_thunderball:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Subscribe_Thunderball.jpg~af51") !important;
+   background-repeat: no-repeat !important;
+  } 
+  
+  .cuk_rhs_bg_image_play_another_day_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Day_Lotto.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_play_another_day_lotto_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Day_Lotto_Hotpicks.jpg") !important;
+   background-repeat: no-repeat !important;
+  } 
+  
+  .cuk_rhs_bg_image_play_another_day_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Day_EuroMillions.jpg") !important;
+   background-repeat: no-repeat !important;
+  } 
+  
+  .cuk_rhs_bg_image_play_another_day_euromillions_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Day_EuroMillions_Hotpicks.jpg") !important;
+   background-repeat: no-repeat !important;
+  } 
+  
+  .cuk_rhs_bg_image_play_another_day_thunderball:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Day_Thunderball.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_how_to_play_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_How_To_Play_Lotto.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_how_to_play_lotto_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_How_To_Play_Lotto_Hotpicks.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_how_to_play_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_How_To_Play_Euromillions.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_how_to_play_euromillions_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_How_To_Play_Euromillions_Hotpicks.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_how_to_play_thunderball:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_How_To_Play_Thunderball.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_how_to_play_set_for_life:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_How_To_Play_Set_For_Life.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_how_to_play_iwgs:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_How_To_Play_IWG.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_introducing_iwgs:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_IWG_Games.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_add_funds_generic:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Add_Funds_Generic.jpg~9bfd") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_add_card_generic:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Add_Card_Generic.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_add_funds_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Add_Funds_Lotto.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_add_card_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Add_Card_Lotto.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_add_funds_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Add_Funds_Euromillions.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_add_card_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Add_Card_Euromillions.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+    
+  .cuk_rhs_bg_image_portfolio_play_iwgs:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_IWG_Games_Navy.jpg~756c") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_another_go_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Go_Lotto.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_another_go_lotto_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Go_Lotto_Hotpicks.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_another_go_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Go_Euromillions.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+    
+  .cuk_rhs_bg_image_another_go_euromillions_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Go_Euromillions_Hotpicks.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_another_go_thunderball:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Go_Thunderball.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+    
+  .cuk_rhs_bg_image_another_go_set_for_life:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Go_Set_For_Life.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_another_go_iwgs:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Another_Go_IWG.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_looking_for_change_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Looking_For_Change_Lotto.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_looking_for_change_lotto_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Looking_For_Change_Lotto_Hotpicks.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_looking_for_change_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Looking_For_Change_Euromillions.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_looking_for_change_euromillions_hotpicks:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Looking_For_Change_Euromillions_Hotpicks.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_looking_for_change_thunderball:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Looking_For_Change_Thunderball.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_looking_for_change_set_for_life:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Looking_For_Change_Set_For_Life.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_looking_for_change_iwgs:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Looking_For_Change_IWG.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_play_again_lotto:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Play_Again_Lotto.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_play_again_euromillions:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Play_Again_Euromillions.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_play_again_thunderball:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Play_Again_Thunderball.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+  
+  .cuk_rhs_bg_image_play_again_iwgs:before {
+   background-image: url("/c/i/css/rhs-backgrounds/P2_Play_Again_IWG.jpg") !important;
+   background-repeat: no-repeat !important;
+  }
+    
+    
+   
+     
+  @media screen and (max-width: 640px){
+    .tnl.brand_bg_royal.cuk_hpopt_checkresults.p3_grid_12_bg_1 {
+      background-image: url("/c/i/css/hpopt-p3-grid12/p3-your-ticket-mobile.jpg") !important;
+      background-size: 100% !important;
+      background-position-y: -270px !important;
+    }
+    .tnl.brand_bg_royal.cuk_hpopt_checkresults.p3_grid_12_bg_2 {
+      background-image: url("/c/i/css/hpopt-p3-grid12/p3-download-app-mobile.jpg") !important;
+      background-size: 100% !important;
+      background-position-y: -270px !important;
+    }
+    .tnl.brand_bg_royal.cuk_hpopt_checkresults.p3_grid_12_bg_3 {
+      background-image: url("/c/i/css/hpopt-p3-grid12/p3-how-to-claim-mobile.jpg") !important;
+      background-size: 100% !important;
+      background-position-y: -270px !important;
+    }
+    .tnl.brand_bg_royal.cuk_hpopt_checkresults.p3_grid_12_bg_4 {
+      background-image: url("/c/i/css/hpopt-p3-grid12/p3-my-account-mobile.jpg") !important;
+      background-size: 100% !important;
+      background-position-y: -270px !important;
+    }
+  } 
+  
+  @media screen and (max-width: 480px){
+    .tnl.brand_bg_royal.cuk_hpopt_checkresults[class*=p3_grid_12_bg_] {
+      background-position-y: -170px !important;
+    }
+    .tnl.brand_bg_royal.cuk_hpopt_checkresults[class*=p3_grid_12_bg_] .cuk_inner h2 {
+      width: 100% !important;
+    } 
+    .tnl.brand_bg_royal.cuk_hpopt_checkresults[class*=p3_grid_12_bg_] p.p3_grid_12_desc {
+      width: 100% !important;
+    }
+  }
+   
+  @media screen and (max-width: 380px){
+    .tnl.brand_bg_royal.cuk_hpopt_checkresults[class*=p3_grid_12_bg_] {
+      background-position-y: -110px !important;
+    }
+  } 
+  
+  @media screen and (min-width: 961px){
+    .cuk_rhs_bg_image_dream_big_balls:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_wins_generic:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_wins_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_wins_euromillions_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_wins_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_wins_lotto_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_wins_thunderball:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_wins_set_for_life:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_upsell_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_upsell_euromillions_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_upsell_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_upsell_lotto_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_upsell_thunderball:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_upsell_set_for_life:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_replay_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_replay_lotto_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_replay_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_replay_euromillions_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_replay_thunderball:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_replay_set_for_life:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_replay_iwgs:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_subscribe_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_subscribe_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_subscribe_thunderball:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_play_another_day_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_play_another_day_lotto_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_play_another_day_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_play_another_day_euromillions_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_play_another_day_thunderball:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_how_to_play_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_how_to_play_lotto_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_how_to_play_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_how_to_play_euromillions_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_how_to_play_thunderball:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_how_to_play_set_for_life:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_how_to_play_iwgs:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_introducing_iwgs:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_add_funds_generic:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_add_card_generic:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_add_funds_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_add_card_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_add_funds_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_add_card_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_portfolio_play_iwgs:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_another_go_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_another_go_lotto_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_another_go_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_another_go_euromillions_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_another_go_thunderball:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_another_go_set_for_life:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_another_go_iwgs:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_looking_for_change_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_looking_for_change_lotto_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_looking_for_change_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_looking_for_change_euromillions_hotpicks:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_looking_for_change_thunderball:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_looking_for_change_set_for_life:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_looking_for_change_iwgs:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_play_again_lotto:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_play_again_euromillions:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_play_again_thunderball:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+    .cuk_rhs_bg_image_play_again_iwgs:before {
+      background-position: 0px top !important;
+      background-size: 40% !important;
+    }
+  } 

@@ -1,0 +1,3940 @@
+#_ver_ {
+    ver: "73.0.1"
+}
+
+#_accessibility_framework_version_ {
+    content: "1.215.1"
+}
+
+#funds_add .legacy_form .item {
+    margin-bottom: 25px
+}
+
+#funds_add .legacy_form .item.right {
+    float: none
+}
+
+@media (max-width:768px) {
+    .list_table.table_row_even {
+        background: #f9f9f9
+    }
+
+    .list_table.draw_history .table_row_head {
+        display: none
+    }
+
+    .list_table.draw_history .table_cell_3,
+    .list_table.draw_history .table_cell_4,
+    .list_table.draw_history .table_cell_6,
+    .list_table.draw_history .table_cell_7 {
+        float: left;
+        width: auto
+    }
+
+    .list_table.draw_history .table_cell_1,
+    .list_table.draw_history .table_cell_2,
+    .list_table.draw_history .table_cell_5 {
+        clear: both;
+        width: auto
+    }
+
+    .list_table.draw_history .table_cell_3,
+    .list_table.draw_history .table_cell_4 {
+        margin: 1% 1% 1% 0
+    }
+
+    .list_table.draw_history .table_cell_1 {
+        margin-top: 2%
+    }
+
+    .list_table.draw_history .table_cell_2 {
+        margin: 1% 0 0;
+        border-bottom: 1px solid #d2d2d2 !important;
+        padding-bottom: 1%
+    }
+
+    .list_table.draw_history .table_cell_5 {
+        border-top: 1px solid #d2d2d2 !important;
+        display: block;
+        padding: 1% 0
+    }
+
+    .list_table.draw_history .table_cell_6,
+    .list_table.draw_history .table_cell_7 {
+        margin-bottom: 2%;
+        padding: 1% 0
+    }
+
+    .list_table.draw_history .table_row_heading {
+        font-family: Effra-Heavy;
+        text-transform: uppercase;
+        font-size: 120% !important;
+        padding: 1% 1.5% !important
+    }
+
+    .list_table.draw_history .table_row_body .table_cell {
+        border: 0;
+        position: relative
+    }
+
+    .list_table.draw_history .table_row_body ul {
+        padding-bottom: 8% !important;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #999
+    }
+
+    .list_table.draw_history .table_row_body ul:last-child {
+        margin-bottom: 10%
+    }
+
+    .list_table.draw_history .table_cell_heading {
+        clip: auto !important;
+        height: auto !important;
+        width: auto !important;
+        margin: auto !important;
+        overflow: visible !important;
+        position: static !important;
+        margin-right: 10px !important
+    }
+
+    .list_table.draw_history .table_cell_1 .table_cell_heading,
+    .list_table.draw_history .table_cell_2 .table_cell_heading,
+    .list_table.draw_history .table_cell_5 .table_cell_heading {
+        float: left !important;
+        padding-right: 3px !important
+    }
+
+    .list_table.draw_history .table_cell_block {
+        display: inline-block
+    }
+
+    .list_table.draw_history#draw_history_lotto-hotpicks .table_row_heading,
+    .list_table.draw_history.draw_history_lotto .table_row_heading {
+        border-bottom: 5px solid #f00000
+    }
+
+    .list_table.draw_history.draw_history_euromillions .table_row_heading {
+        border-bottom: 5px solid #ff0
+    }
+
+    .list_table.draw_history.draw_history_euromillions-hotpicks .table_row_heading {
+        border-bottom: 5px solid #ff8200
+    }
+
+    .list_table.draw_history.draw_history_thunderball .table_row_heading {
+        border-bottom: 5px solid #e232d1
+    }
+}
+
+[class*=fed_nav_games_] {
+    width: 100%;
+    height: 100%;
+    display: inline-block
+}
+
+[class*=fed_nav_games_]:active,
+[class*=fed_nav_games_]:focus {
+    outline: 1px dotted grey
+}
+
+@media only screen and (max-width:640px) {
+    .nav_access li {
+        display: block !important
+    }
+}
+
+a#register_link:focus {
+    background: transparent
+}
+
+.cuk_mega_menu.games_menu .inner .column.column_3 .row .scratchcards .content .cuk_btn {
+    float: right
+}
+
+.cuk_mega_menu.games_menu .inner .column.column_3 .row .scratchcards .content .cuk_btn.cuk_btn_secondary_trans_small:active,
+.cuk_mega_menu.games_menu .inner .column.column_3 .row .scratchcards .content .cuk_btn.cuk_btn_secondary_trans_small:focus,
+.cuk_mega_menu.games_menu .inner .column.column_3 .row .scratchcards .content .cuk_btn.cuk_btn_secondary_trans_small:hover {
+    background-color: #fff;
+    color: navy
+}
+
+.cuk_iwg_tile .new_icon {
+    background: #007e22;
+    color: #fff
+}
+
+.new_brand_template .com_core_app .draw_days .slider {
+    background-color: #636363
+}
+
+.registration-step-two #back_to_action.btn_link {
+    color: navy;
+    text-decoration: underline
+}
+
+.registration-step-two #back_to_action.btn_link:active,
+.registration-step-two #back_to_action.btn_link:hover,
+.registration-step-two #back_to_action.btn_link:visited {
+    text-decoration: none
+}
+
+#open_account .form_container .fld_inline .item.radio.btn_rad .input_wrap input:focus+label,
+#open_account .form_container select.select:focus,
+#registration-step-two .form_container .fld_inline .item.radio.btn_rad .input_wrap input:focus+label,
+#registration-step-two .form_container select.select:focus,
+.form_about_user select:focus {
+    border: 1px solid #006ef5
+}
+
+.nav_main_mobile .nav_main_mobile_option .nav_main_mobile_games:focus .burger {
+    border: 1px dotted #f0f0f0 !important;
+    outline: none !important
+}
+
+.email_preferences_view_page .marketing_preference_list_item input:focus+label,
+.marketing_preferences_view input:focus+label {
+    outline: 1px dotted #000
+}
+
+.pop_up_email_verification_content .new_btn_overlay_close.com_overlay_close:focus,
+.pop_up_email_verification_content .pop_up_email_verification_content-close:focus {
+    outline: 1px dotted grey
+}
+
+.nav_mobile_wrapper .nav_container_mobile .mobileMenu_opt.expandable:focus {
+    border: 1px dotted grey
+}
+
+#set_deposit {
+    margin-bottom: 1.14286em
+}
+
+.nav_container_desktop .close_container {
+    right: 10px;
+    top: -35px
+}
+
+.nav_container_desktop .close_container .close_panel {
+    border-radius: 50%;
+    background: hsla(0, 0%, 100%, .3)
+}
+
+.nav_container_desktop .close_container .close_panel .front_sprite .front_sprite_asset {
+    left: -551px
+}
+
+.nav_container_desktop .close_container .close_panel:active,
+.nav_container_desktop .close_container .close_panel:focus,
+.nav_container_desktop .close_container .close_panel:hover {
+    background: #fff
+}
+
+.nav_container_desktop .close_container .close_panel:active .front_sprite .front_sprite_asset,
+.nav_container_desktop .close_container .close_panel:focus .front_sprite .front_sprite_asset,
+.nav_container_desktop .close_container .close_panel:hover .front_sprite .front_sprite_asset {
+    left: -510px
+}
+
+.cuk_global_disclaimers .container_12 {
+    border-bottom: 1px solid rgba(0, 0, 128, .2);
+    padding: 0 0 1.4285em
+}
+
+.cuk_global_disclaimers .container_12 ul {
+    color: navy;
+    font-family: Effra-Reg;
+    line-height: 1.2em
+}
+
+.cuk_global_disclaimers .container_12 ul li span a {
+    color: navy;
+    text-decoration: underline
+}
+
+.cuk_global_disclaimers .container_12 ul li span a:active,
+.cuk_global_disclaimers .container_12 ul li span a:focus,
+.cuk_global_disclaimers .container_12 ul li span a:hover {
+    background-color: #fff;
+    color: navy;
+    text-decoration: none
+}
+
+.cuk_global_disclaimers .container_12 .disclaimer_secondary ul li {
+    width: 82%
+}
+
+.cuk_global_disclaimers .container_12 .disclaimer_secondary ul li.last span {
+    font-family: Effra-Heavy
+}
+
+.cuk_global_disclaimers .container_12 .disclaimer_secondary ul li a {
+    color: navy;
+    text-decoration: underline
+}
+
+.cuk_global_disclaimers .container_12 .disclaimer_secondary ul li a:active,
+.cuk_global_disclaimers .container_12 .disclaimer_secondary ul li a:focus,
+.cuk_global_disclaimers .container_12 .disclaimer_secondary ul li a:hover {
+    background-color: #fff;
+    color: navy;
+    text-decoration: none
+}
+
+body[id*=_results_checker_page] a[id=check_saved_numbers] {
+    text-decoration: underline
+}
+
+body[id*=_results_checker_page] a[id=check_saved_numbers]:active,
+body[id*=_results_checker_page] a[id=check_saved_numbers]:focus,
+body[id*=_results_checker_page] a[id=check_saved_numbers]:hover {
+    background: transparent;
+    text-decoration: none
+}
+
+@media screen and (max-width:640px) {
+    [class*=_checker_page] .skip_step_target {
+        overflow: hidden
+    }
+}
+
+.cuk-flex-layout-buttons {
+    display: flex;
+    margin: 0 -8px;
+    margin-top: 15px
+}
+
+.cuk-flex-layout-buttons li {
+    flex: 0 0 50%;
+    padding: 0 8px
+}
+
+.cuk-flex-layout-buttons li a {
+    width: 100%;
+    display: block
+}
+
+@media screen and (min-width:640px) {
+    .cuk-flex-layout-buttons {
+        max-width: 600px
+    }
+}
+
+@media screen and (max-width:325px) {
+    .cuk-flex-layout-buttons li .cuk_btn[class*=small] {
+        padding: .5em
+    }
+}
+
+[class*=_results_checker_page] .skip_step_target {
+    width: 100%
+}
+
+[class*=_results_checker_page] .step.step_3 {
+    float: none
+}
+
+.nav_container_desktop {
+    top: 75px
+}
+
+.nav_container_desktop .close_container {
+    top: -54px
+}
+
+.nav_container_desktop .close_container .close_panel {
+    width: 44px;
+    height: 44px
+}
+
+.nav_container_desktop .close_container .close_panel .front_sprite {
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: 16px
+}
+
+.new_brand_template .nav_main .desktop_active .with_arrow:before {
+    border-bottom: 40px solid #fff;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent
+}
+
+#set_deposit .player-gaming-profile {
+    padding-top: 0;
+    margin-bottom: 10px;
+    border-top: 0
+}
+
+.hide_elements {
+    visibility: hidden
+}
+
+.show_elements_without_errors {
+    visibility: visible
+}
+
+.funds_add_page #funds_add .amount_fields_wrapper .amount_rad_btns_wrapper .item.radio.btn_rad .input_wrap input[id*=form_amount_button_]:active+label,
+.funds_add_page #funds_add .amount_fields_wrapper .amount_rad_btns_wrapper .item.radio.btn_rad .input_wrap input[id*=form_amount_button_]:active+label.active,
+.funds_add_page #funds_add .amount_fields_wrapper .amount_rad_btns_wrapper .item.radio.btn_rad .input_wrap input[id*=form_amount_button_]:focus+label,
+.funds_add_page #funds_add .amount_fields_wrapper .amount_rad_btns_wrapper .item.radio.btn_rad .input_wrap input[id*=form_amount_button_]:focus+label.active,
+.funds_add_page #funds_add .amount_fields_wrapper .amount_rad_btns_wrapper .item.radio.btn_rad .input_wrap input[id*=form_amount_button_]:hover+label,
+.funds_add_page #funds_add .amount_fields_wrapper .amount_rad_btns_wrapper .item.radio.btn_rad .input_wrap input[id*=form_amount_button_]:hover+label.active {
+    border: 1px dotted #000
+}
+
+.debit_card_details_add_page .screen_reader {
+    left: auto;
+    width: 100%;
+    height: 100%;
+    z-index: -1
+}
+
+.personal_details_edit_page .personal_details_edit .panel_body .form_basic_details .form_section_inner.title_box_container .item .input_wrap #form_title:active,
+.personal_details_edit_page .personal_details_edit .panel_body .form_basic_details .form_section_inner.title_box_container .item .input_wrap #form_title:focus,
+.personal_details_edit_page .personal_details_edit .panel_body .form_basic_details .form_section_inner.title_box_container .item .input_wrap #form_title:hover {
+    border: 1px dotted #000
+}
+
+body[id*=_draw_history_page] .dbg_header[class*=_bg],
+body[id*=_prize_breakdown_page] .dbg_header[class*=_bg],
+body[id*=_results_checker_page] .dbg_header[class*=_bg] {
+    background: none
+}
+
+body[id*=_dbg_play_page] input[id*=_playslip_confirm]:focus {
+    box-shadow: 0 0 0 5px rgba(52, 96, 242, .6)
+}
+
+body[id*=_results_checker_page] .board_inner .hot_picks .pick .btn,
+body[id*=_results_checker_page] .board_inner .pool .number_inner .text,
+body[id*=_results_checker_page] .boards_inner .board_inner .input_wrapper .text,
+body[id*=_results_checker_page].set-for-life_results_checker_page .board_inner .pool0 .number_inner .text {
+    border: 1px solid #767676
+}
+
+body[id*=_results_checker_page].set-for-life_results_checker_page .board_inner .pool1 .number_inner .text {
+    border: 1px solid #2ca2af
+}
+
+body[id*=_results_checker_page].thunderball_results_checker_page .board_inner .pool0 .number_inner .text {
+    border: 1px solid #767676
+}
+
+body[id*=_results_checker_page].thunderball_results_checker_page .board_inner .pool1 .number_inner .text {
+    border: 1px solid #e232d1
+}
+
+.cssFixClass {
+    font-size: 150%;
+    line-height: 100%;
+    font-family: Effra-Reg, arial, verdana, helvetica, sans-serif
+}
+
+#login_page #login_view #existing_user .existing_user_inner a[href="/account-terms"],
+#login_page .com_save_secure_login a,
+#login_page .user_actions [id*=_link] {
+    text-decoration: underline
+}
+
+#login_page #login_view #existing_user .existing_user_inner a[href="/account-terms"]:active,
+#login_page #login_view #existing_user .existing_user_inner a[href="/account-terms"]:focus,
+#login_page #login_view #existing_user .existing_user_inner a[href="/account-terms"]:hover,
+#login_page .com_save_secure_login a:active,
+#login_page .com_save_secure_login a:focus,
+#login_page .com_save_secure_login a:hover,
+#login_page .user_actions [id*=_link]:active,
+#login_page .user_actions [id*=_link]:focus,
+#login_page .user_actions [id*=_link]:hover {
+    text-decoration: none;
+    background: transparent
+}
+
+.new_brand_template .draw_duration_inner.clr .direct_debit .heading_draw_based .direct_debit_icon {
+    position: relative;
+    float: none;
+    display: inline-block;
+    margin-left: 10px;
+    left: auto;
+    bottom: 0
+}
+
+.debit_card_active_mouse {
+    display: inline-block !important
+}
+
+.frm_legend_hdr h2.txt_large {
+    display: block;
+    background-color: #fff;
+    padding: 0;
+    font-size: 1.14285714em
+}
+
+#form_message.announcement_error h2.message_primary {
+    margin-bottom: 0
+}
+
+.cuk_exclamantion_icon-form:before {
+    content: "";
+    display: block;
+    background: #fff url(/assets/wolff/info-icon-cea478b27525587f28e328bba12343b4.svg) 50% no-repeat;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin: 3px 6px 0 0
+}
+
+#contact_details .label_additional_text:before,
+.dob .label_additional_text:before {
+    display: none
+}
+
+.frm_legend_hdr h3.text_large {
+    display: block;
+    background-color: #fff;
+    padding: 0;
+    font-size: 1.14285714em
+}
+
+.marginBottomZero {
+    margin-bottom: 0
+}
+
+.nav_container_desktop_my_account .navigation_item__link:after {
+    border-color: navy
+}
+
+.cuk_game_card .brand_bg_primary .brand_text_effect .shadow_wrapper .lockup:first-of-type span[class*=line_]:not(.line_3),
+.cuk_game_card .brand_bg_primary .brand_text_effect .shadow_wrapper .shadow_effect span[class*=line_],
+.cuk_homepage_hero_section .cuk_combined_primary_content .cuk_hero_promo .content .brand_text_effect .shadow_wrapper .lockup:first-of-type span[class*=line_]:not(.line_3),
+.cuk_homepage_hero_section .cuk_combined_primary_content .cuk_hero_promo .content .brand_text_effect .shadow_wrapper .shadow_effect.lockup span[class*=line_],
+.cuk_mega_menu.games_menu .inner .column.column_1 .dbg_tile .content .brand_text_effect .shadow_wrapper .lockup:first-of-type span[class*=line_],
+.cuk_mega_menu.games_menu .inner .column.column_1 .dbg_tile .content .brand_text_effect .shadow_wrapper .shadow_effect.lockup span[class*=line_] {
+    -webkit-text-stroke: .5px #000;
+    -webkit-font-smoothing: antialiased
+}
+
+#_add_funds_radio_hotfix_version_ {
+    content: "1.8.1"
+}
+
+.cuk_new_radio_buttons .amount.inner_text .input_wrap.cuk_wallet_load_wrapper {
+    width: 195px !important;
+    float: left;
+    border-bottom: none
+}
+
+.cuk_new_radio_buttons .amount.inner_text .input_wrap.cuk_wallet_load_wrapper .cuk_preselect_radios #cuk_new_amount_different {
+    display: none
+}
+
+.cuk_new_radio_buttons .amount.inner_text .input_wrap.cuk_wallet_load_wrapper .cuk_preselect_radios .radio_label {
+    box-sizing: border-box;
+    border: 1px solid #d8d8d8;
+    color: #666;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .75em;
+    width: 55px;
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+    margin: 0 5px 0 0;
+    float: left
+}
+
+.cuk_new_radio_buttons .amount.inner_text .input_wrap.cuk_wallet_load_wrapper .cuk_preselect_radios .radio_label:last-child {
+    margin-right: 0
+}
+
+.cuk_new_radio_buttons .amount.inner_text .input_wrap.cuk_wallet_load_wrapper .cuk_preselect_radios .radio_label.active {
+    background: #44baff;
+    color: #000;
+    font-weight: 400;
+    border-color: #44baff
+}
+
+.cuk_new_radio_buttons .amount.inner_text .cuk_or_text {
+    float: left;
+    margin-right: 20px;
+    margin-top: 7px;
+    text-transform: uppercase
+}
+
+#_bau_accordion_version_ {
+    content: "1.1.1"
+}
+
+@media (max-width:640px) {
+
+    .bau_accordion .blind.expanded .blind_head,
+    .bau_accordion .blind_expanded .blind_head {
+        background-position: 99% -373px !important
+    }
+}
+
+.bau_accordion,
+.bau_accordion * {
+    box-sizing: content-box !important
+}
+
+#_cls_global_notifications_override_version_ {
+    content: "1.15.1"
+}
+
+body.alerts .cuk_message_bar {
+    display: block;
+    position: relative;
+    color: #636363;
+    margin: 0 0 20px
+}
+
+body.alerts .cuk_message_bar .com_inner {
+    position: relative
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts {
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 3.5625rem;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 hsla(0, 0%, 8%, .3)
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul {
+    padding: 0;
+    list-style: none
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul,
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last {
+    margin: 0;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #3460f2;
+    text-decoration: none;
+    z-index: 1
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link .spanWrapper {
+    margin: 0 65px 0 110px
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link .spanWrapper span.alert {
+    height: 1.125rem;
+    color: navy;
+    font-family: Effra-Heavy;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-decoration: none
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link .spanWrapper span.alert_link {
+    color: #3460f2;
+    text-decoration: underline
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:visited {
+    color: #3460f2
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:visited .spanWrapper span.alert_link {
+    text-decoration: underline;
+    color: #3460f2
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:active,
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:focus,
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:hover {
+    text-decoration: none;
+    background: rgba(52, 96, 242, .1)
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:active .spanWrapper span.alert,
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:focus .spanWrapper span.alert,
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:hover .spanWrapper span.alert {
+    color: navy
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:active .spanWrapper span,
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:focus .spanWrapper span,
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:hover .spanWrapper span {
+    text-decoration: none
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts ul li.last .cuk_alert_link:focus {
+    outline: none;
+    box-shadow: 0 0 0 6px rgba(52, 96, 242, .6);
+    border-radius: 10px
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts .msg_arrow {
+    padding-top: 4px;
+    padding-right: 31px;
+    position: absolute;
+    right: 0
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts .msg_arrow .message_arrow {
+    border: 0;
+    max-width: 100%;
+    -ms-interpolation-mode: bicubic
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts:before {
+    opacity: .1;
+    background-color: #3460f2;
+    border-radius: 10px 0 0 10px
+}
+
+body.alerts .cuk_message_bar .com_inner .player_alerts:after,
+body.alerts .cuk_message_bar .com_inner .player_alerts:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5.625rem;
+    height: 100%
+}
+
+body.alerts .colorHide:before {
+    background-color: transparent !important
+}
+
+@media screen and (max-width:568px) {
+    body.alerts .cuk_message_bar {
+        margin: 0 15px 10px 10px
+    }
+}
+
+body.alerts #main_sub_header .opaque {
+    z-index: 10;
+    opacity: .6;
+    height: 100%
+}
+
+body.alerts.games-gamestore-page #content_wrapper:before {
+    top: -54px
+}
+
+body.alerts.iwg_play_details_confirm_page #content_wrapper:before {
+    top: -3.5%
+}
+
+body.alerts[class*=iwg_play_game_page] #content_wrapper:before {
+    top: -15px
+}
+
+#_cvv_messaging_hotfix_version_ {
+    content: "1.1.1"
+}
+
+#_dbg_opt_accessibility_fixes_version_ {
+    content: "1.36.1"
+}
+
+.number_picker_container .number_picker_container-close {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    outline: none
+}
+
+.number_picker_container .number_picker_container-close img {
+    padding: 6px
+}
+
+.number_picker_container .number_picker_container-close:focus,
+.number_picker_container .number_picker_container-close:hover {
+    border: 2px solid navy
+}
+
+.number_picker_container .number_picker_container-close:focus img,
+.number_picker_container .number_picker_container-close:hover img {
+    padding: 6px
+}
+
+.new_brand_template .playslip .board_clear .clear_icon {
+    border: 2px solid transparent;
+    border-radius: 50%
+}
+
+.new_brand_template .playslip .board_clear .clear_icon:focus,
+.new_brand_template .playslip .board_clear .clear_icon:hover {
+    border: 2px solid navy;
+    outline: none
+}
+
+@media screen and (max-width:640px) {
+    .new_brand_template .playslip .board_clear .clear_icon {
+        border: none
+    }
+
+    .new_brand_template .playslip .board_clear .clear_icon:focus,
+    .new_brand_template .playslip .board_clear .clear_icon:hover {
+        border: 2px solid transparent;
+        outline: none
+    }
+
+    .new_brand_template .playslip .board_clear .clear_icon:focus .clear_line_text,
+    .new_brand_template .playslip .board_clear .clear_icon:hover .clear_line_text {
+        border-bottom: transparent
+    }
+}
+
+.new_brand_template .playslip.euromillions-hotpicks .hot_picks .picks .pick .radio:focus,
+.new_brand_template .playslip.euromillions-hotpicks .hot_picks .picks .pick .radio:focus+label,
+.new_brand_template .playslip.lotto-hotpicks .hot_picks .picks .pick .radio:focus,
+.new_brand_template .playslip.lotto-hotpicks .hot_picks .picks .pick .radio:focus+label {
+    outline: none
+}
+
+.new_brand_template .playslip.euromillions-hotpicks .hot_picks .picks .pick .radio:focus+label span:last-child,
+.new_brand_template .playslip.lotto-hotpicks .hot_picks .picks .pick .radio:focus+label span:last-child {
+    border-bottom: 2px solid navy
+}
+
+.new_brand_template .playslip.euromillions-hotpicks .hot_picks .picks .pick .radio:checked:focus+label span:last-child,
+.new_brand_template .playslip.lotto-hotpicks .hot_picks .picks .pick .radio:checked:focus+label span:last-child {
+    border-bottom: 2px solid #fff
+}
+
+.number_picker_container .selection_picks_container .selection_picks_line .picker_selection_wrap_list .picker_selection_element .radio:focus+label {
+    text-decoration: underline
+}
+
+.new_brand_template .com_core_app.set-for-life .pool1 .number.lucky:before,
+.number_picker_container .pop_up_content .number_selection_container.euromillions .number_selection_wrap_list .number_selection_element .pool_1_label.number_selection_button_label,
+.number_picker_container .pop_up_content .number_selection_container.set-for-life .number_selection_wrap_list .number_selection_element .pool_1_label.number_selection_button_label {
+    color: navy
+}
+
+.number_picker_container .pop_up_content .number_selection_container.set-for-life .number_selection_wrap_list .number_selection_element .pool_1_label.number_selection_button_label.filled {
+    background-color: #00d6da;
+    color: navy;
+    border: 1px solid #00d6da
+}
+
+#lottoResultsCheckerForm p {
+    padding-left: 10px
+}
+
+#_image_variant_version_ {
+    content: "1.1.1"
+}
+
+#_iwg_licensed_games_overrides_version_ {
+    content: "1.29.1"
+}
+
+.iwg.cuk_game_card .cuk_inner .image:before,
+.iwg.cuk_hero_promo .cuk_inner .image:before,
+.iwg.cuk_secondary_promo .cuk_inner .image:before {
+    display: block;
+    background-size: contain;
+    content: "";
+    position: absolute;
+    z-index: 666
+}
+
+.iwg.cuk_secondary_promo .cuk_inner .image:before {
+    right: 25%;
+    width: 50%;
+    height: 40%;
+    top: 30%
+}
+
+.cuk_combined_header .iwg.cuk_hero_promo .cuk_inner .image:before {
+    right: 20px;
+    width: 275px;
+    height: 25%;
+    top: 37.5%
+}
+
+.grid_6 .iwg.cuk_game_card .cuk_inner .image:before {
+    right: 0;
+    width: 35%;
+    height: 40%;
+    bottom: 6%
+}
+
+.grid_4 .iwg.cuk_game_card .cuk_inner .image:before {
+    right: 0;
+    width: 35%;
+    height: 40%;
+    bottom: 0
+}
+
+.cuk-carousel .iwg.cuk_game_card .cuk_inner .image:before {
+    right: 0;
+    width: 35%;
+    height: 40%;
+    bottom: -7%
+}
+
+@media screen and (max-width:1170px) {
+    .cuk_combined_header .iwg.cuk_hero_promo .cuk_inner .image:before {
+        right: 10px;
+        width: 17vw;
+        height: 25%;
+        top: 37.5%
+    }
+}
+
+@media screen and (max-width:960px) {
+    .cuk_combined_header .iwg.cuk_hero_promo .cuk_inner .image:before {
+        right: 5%;
+        width: 27vw
+    }
+}
+
+@media screen and (max-width:540px) {
+    .cuk_combined_header .iwg.cuk_hero_promo .cuk_inner .image:before {
+        top: 70%;
+        width: 30vw
+    }
+}
+
+@media screen and (max-width:520px) {
+    .iwg.cuk_secondary_promo .cuk_inner .image {
+        position: relative
+    }
+
+    .iwg.cuk_secondary_promo .cuk_inner .image:before {
+        right: 20%;
+        width: 60%;
+        height: 60%;
+        top: 20%
+    }
+}
+
+.iwg_4041.cuk_game_card .cuk_inner .image:before,
+.iwg_4041.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4041.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4041-Monopoly-Property-Drop.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4045.cuk_game_card .cuk_inner .image:before,
+.iwg_4045.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4045.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/3962-Monopoly-Gold.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4055.cuk_game_card .cuk_inner .image:before,
+.iwg_4055.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4055.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4055-Scrabble.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4164.cuk_game_card .cuk_inner .image:before,
+.iwg_4164.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4164.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4164-Monopoly-Riches.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4191.cuk_game_card .cuk_inner .image:before,
+.iwg_4191.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4191.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4191-Monopoly-Deal.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4196.cuk_game_card .cuk_inner .image:before,
+.iwg_4196.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4196.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4196-Love-Island-Sunny-Money.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4196.cuk_secondary_promo .cuk_inner .image:before {
+    transform: scale(1.5)
+}
+
+.iwg_4198.cuk_game_card .cuk_inner .image:before,
+.iwg_4198.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4198.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4198-Love-Island-Cash-Match.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4198.cuk_secondary_promo .cuk_inner .image:before {
+    transform: scale(1.5)
+}
+
+.iwg_4210.cuk_game_card .cuk_inner .image:before,
+.iwg_4210.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4210.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4210-Monopoly-Jackpot.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4223.cuk_game_card .cuk_inner .image:before,
+.iwg_4223.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4223.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4223-Friends.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4235.cuk_game_card .cuk_inner .image:before,
+.iwg_4235.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4235.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4235-Monopoly-Riches.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4240.cuk_game_card .cuk_inner .image:before,
+.iwg_4240.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4240.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4240-Cluedo.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4257.cuk_game_card .cuk_inner .image:before,
+.iwg_4257.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4257.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4257-Monopoly-Gold.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4266.cuk_game_card .cuk_inner .image:before,
+.iwg_4266.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4266.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4266-Monopoly-Lotto.png~9295) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4266.cuk_game_card .cuk_inner .image:before {
+    right: 5px !important
+}
+
+.iwg_4271.cuk_game_card .cuk_inner .image:before,
+.iwg_4271.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4271.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4271-Monopoly-85th-Edition.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4282.cuk_game_card .cuk_inner .image:before,
+.iwg_4282.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4282.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4282-Monopoly_Scratch_Badge_V2.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4282.cuk_game_card .cuk_inner .image:before {
+    right: 5px !important
+}
+
+.iwg_4289.cuk_game_card .cuk_inner .image:before,
+.iwg_4289.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4289.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4289-Trivial-Persuit.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4292.cuk_game_card .cuk_inner .image:before,
+.iwg_4292.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4292.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4055-Scrabble.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4292.cuk_game_card .cuk_inner .image:before {
+    right: 10px !important
+}
+
+.iwg_4312.cuk_game_card .cuk_inner .image:before,
+.iwg_4312.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4312.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4312-Yahtzee.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4312.cuk_game_card .cuk_inner .image:before {
+    right: 10px !important
+}
+
+.iwg_4320.cuk_game_card .cuk_inner .image:before,
+.iwg_4320.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4320.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4320-Monopoly-Winter-Gold.png~0dfb) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4320.cuk_game_card .cuk_inner .image:before {
+    right: 10px !important
+}
+
+.iwg_4339.cuk_game_card .cuk_inner .image:before,
+.iwg_4339.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4339.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4339-Monopoly-Riches-Deluxe.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4339.cuk_game_card .cuk_inner .image:before {
+    bottom: 3% !important
+}
+
+.iwg_4383.cuk_game_card .cuk_inner .image:before,
+.iwg_4383.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4383.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4383-Monopoly-Spin.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4383.cuk_game_card .cuk_inner .image:before {
+    right: 5px !important
+}
+
+.iwg_4425.cuk_game_card .cuk_inner .image:before,
+.iwg_4425.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4425.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4425-Scrabble-Boost-Special-Edition.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4425.cuk_game_card .cuk_inner .image:before {
+    right: 5px !important
+}
+
+.iwg_4440.cuk_game_card .cuk_inner .image:before,
+.iwg_4440.cuk_hero_promo .cuk_inner .image:before,
+.iwg_4440.cuk_secondary_promo .cuk_inner .image:before {
+    background: url(/c/i/css/licensed-game-logos/4440-Monopoly-Deal_v2.png) no-repeat 50%;
+    background-size: contain
+}
+
+.iwg_4440.cuk_game_card .cuk_inner .image:before {
+    right: 5px !important
+}
+
+#_iwg_nudge_version_ {
+    content: "1.3.1"
+}
+
+#iwg-game-nudge {
+    padding: 2em 0 .25em;
+    position: relative
+}
+
+#iwg-game-nudge p {
+    padding-left: 30px
+}
+
+#iwg-game-nudge p:before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    background: url(/c/i/css/arrow_inv.svg~1111) 0 no-repeat;
+    height: 16px;
+    width: 14px
+}
+
+.iwg_asset_promo img {
+    margin: 0 0 5px
+}
+
+.iwg_confirm_bunners {
+    float: right
+}
+
+@media screen and (min-width:641px) {
+    .iwg_asset_promo img {
+        width: auto
+    }
+}
+
+.com_results_block.euromillions .mega_friday,
+.life-changing-story .com_story_hero .share_panel,
+.life-changing-story .com_story_video .share_panel,
+.playslip_header.euromillions .draw_state,
+.wa_results_block.euromillions .draw_state {
+    display: none
+}
+
+#_notification_outdated_versions_version_ {
+    content: "1.4.1"
+}
+
+.announcement.announcement_error .announcement_inner--padding {
+    padding: 10px
+}
+
+#notification_outdated_browser {
+    margin-bottom: 0
+}
+
+.outdated-browser__icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: -18px;
+    width: 4px;
+    height: 16px;
+    display: block;
+    margin-top: 12px
+}
+
+.outdated-browser__primary {
+    font-size: 114.28571%;
+    line-height: 118.75%;
+    color: #cf1534
+}
+
+.announcement .announcement_inner .outdated-browser__secondary-container {
+    padding-right: 40px
+}
+
+.announcement .announcement_inner .outdated-browser__secondary {
+    padding: 0
+}
+
+.announcement .announcement_inner .outdated-browser__primary {
+    padding-right: 30px
+}
+
+.announcement .announcement_inner .outdated-browser__top-section {
+    display: block;
+    position: relative
+}
+
+.announcement .announcement_inner .outdated-browser__close-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 5px
+}
+
+@media screen and (min-width:961px) {
+    .outdated-browser__section {
+        padding: 35px 0
+    }
+
+    .announcement .announcement_inner .outdated-browser__secondary-container {
+        padding-right: 40px
+    }
+}
+
+#_opt005_add_card_modal_version_ {
+    content: "1.10.1"
+}
+
+.cuk-mvt-add-card-modal {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    color: navy;
+    font-family: Effra-Reg
+}
+
+.cuk-mvt-add-card-modal * {
+    box-sizing: border-box
+}
+
+.cuk-mvt-add-card-modal__container {
+    background: #fff;
+    border-radius: 10px;
+    height: auto;
+    width: calc(100% - 20px);
+    -webkit-font-smoothing: antialiased;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    position: absolute
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-add-card-modal__container {
+        width: 570px
+    }
+}
+
+.cuk-mvt-add-card-modal__inner {
+    padding: 35px 15px 20px;
+    position: relative;
+    text-align: center
+}
+
+.cuk-mvt-add-card-modal h1,
+.cuk-mvt-add-card-modal h2,
+.cuk-mvt-add-card-modal h3,
+.cuk-mvt-add-card-modal h4 {
+    color: navy;
+    font-family: Effra-Heavy
+}
+
+.cuk-mvt-add-card-modal__title {
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 114.28571%;
+    line-height: 137.5%
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-add-card-modal__title {
+        margin-bottom: 14px;
+        font-size: 157.14286%;
+        line-height: 100%
+    }
+}
+
+.cuk-mvt-add-card-modal__text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 100%;
+    line-height: 128.57143%
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-add-card-modal__text {
+        margin-bottom: 20px;
+        font-size: 128.57143%;
+        line-height: 100%
+    }
+}
+
+.cuk-mvt-add-card-modal__main-icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    width: 81px
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-add-card-modal__main-icon {
+        height: 78px;
+        width: 88px
+    }
+}
+
+.cuk-mvt-add-card-modal__button {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 100% !important;
+    line-height: 128.57143% !important
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-add-card-modal__button {
+        width: calc(100% - 60px)
+    }
+}
+
+.cuk-mvt-add-card-modal__close {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 15px;
+    height: 15px
+}
+
+.cuk-mvt-add-card-modal__close:after,
+.cuk-mvt-add-card-modal__close:before {
+    position: absolute;
+    left: 7px;
+    top: -2px;
+    content: " ";
+    height: 20px;
+    width: 1px;
+    background-color: navy
+}
+
+.cuk-mvt-add-card-modal__close:before {
+    transform: rotate(45deg)
+}
+
+.cuk-mvt-add-card-modal__close:after {
+    transform: rotate(-45deg)
+}
+
+.cuk-mvt-add-card-modal__progression-bar {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 150px;
+    margin: 0 auto
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-add-card-modal__progression-bar {
+        width: 185px
+    }
+}
+
+.cuk-mvt-add-card-modal__progression-bar p {
+    margin: 0
+}
+
+.cuk-mvt-add-card-modal__progression-bar-step {
+    margin-bottom: 36px;
+    display: flex;
+    width: 100%
+}
+
+.cuk-mvt-add-card-modal__progression-bar-circle {
+    background: #d2d2d2;
+    border-radius: 31px;
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    margin-right: 15px;
+    position: relative
+}
+
+.cuk-mvt-add-card-modal__progression-bar-circle--active {
+    background: #007e22
+}
+
+.cuk-mvt-add-card-modal__progression-bar-circle--active:before {
+    position: absolute;
+    content: " ";
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 12px;
+    width: 5px;
+    border-bottom: 2.8px solid #fff;
+    border-right: 2.8px solid #fff;
+    top: 6px;
+    left: 11px
+}
+
+.cuk-mvt-add-card-modal__progression-bar-circle:after {
+    content: " ";
+    display: block;
+    border-left: 2px solid #007e22;
+    height: 40px;
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 2px)
+}
+
+.cuk-mvt-add-card-modal__progression-bar-circle--last:after {
+    display: none
+}
+
+.cuk-mvt-add-card-modal__progression-bar-text {
+    display: block;
+    align-self: center
+}
+
+.cuk-mvt-add-card-modal__winners {
+    margin: 24px 33px 0;
+    position: relative;
+    margin-bottom: 24px
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-add-card-modal__winners {
+        margin: 24px 15px
+    }
+}
+
+.cuk-mvt-add-card-modal__winners-image {
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 305px;
+    width: 100%;
+    display: block
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-add-card-modal__winners-image {
+        height: 415px
+    }
+}
+
+.cuk-mvt-add-card-modal__winners-text {
+    background: #fff;
+    border-radius: 0 10px 10px 0;
+    display: block;
+    color: #141414;
+    position: absolute;
+    padding: 30px 20px;
+    left: -1px;
+    bottom: 23px;
+    margin-bottom: 0;
+    width: 217px;
+    text-align: left;
+    font-size: 114.28571%;
+    line-height: 125%
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-add-card-modal__winners-text {
+        padding: 45px 74px 45px 35px;
+        width: 371px;
+        font-size: 185.71429%;
+        line-height: 107.69231%
+    }
+}
+
+@media screen and (min-width:768px) {
+    #cuk-mvt-addcard-modal-winnersincentive .cuk-mvt-add-card-modal__container {
+        width: 630px
+    }
+}
+
+#_opt006_exit_reg_journey_version_ {
+    content: "1.17.1"
+}
+
+.cuk-mvt-exit-journey__circle-style {
+    background-color: #fd7b70;
+    width: 8px;
+    height: 8px;
+    margin-left: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 0
+}
+
+.cuk-mvt-exit-journey__circle-style--menubar {
+    position: absolute;
+    margin-left: -7px;
+    top: -2px
+}
+
+.cuk-mvt-exit-journey__circle-style--mobile-style {
+    top: 0;
+    position: absolute;
+    transform: translateY(50%)
+}
+
+.cuk-mvt-exit-journey__message-number {
+    margin-left: 12px;
+    background-color: #fd7b70;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 71.42857%;
+    line-height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cuk-mvt-exit-journey__message-number--no-message {
+    background: none;
+    border: 1px solid #fff;
+    text-indent: 0
+}
+
+.cuk-mvt-exit-journey__message-number--position {
+    position: absolute
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-exit-journey__message-number {
+        top: -3px;
+        position: relative
+    }
+}
+
+.cuk-mvt-exit-journey__number-message {
+    border-radius: 50%
+}
+
+.cuk-mvt-exit-journey__hide {
+    display: none
+}
+
+.cuk-mvt-exit-journey__p-tag-mobile {
+    position: relative
+}
+
+.cuk-mvt-exit-journey__border .dropdown_link {
+    border: 1px solid transparent
+}
+
+.announcement #exit-card-reg {
+    text-decoration: underline;
+    color: #3460f2
+}
+
+.announcement--fix {
+    overflow: hidden
+}
+
+.thunderball_dbg_play_page .com_core_app.thunderball .announcement--fix {
+    padding: 10px
+}
+
+#_opt007_add_card_transition_version_ {
+    content: "1.1.1"
+}
+
+.cuk-mvt-add-card-transition__overflow-display {
+    overflow: visible
+}
+
+.cuk-mvt-add-card-transition__heading-parent {
+    background: none
+}
+
+.cuk-mvt-add-card-transition__heading-parent .com_inner {
+    padding-right: 0
+}
+
+.cuk-mvt-add-card-transition__heading {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #d8d8d8;
+    font-family: Effra-Heavy;
+    text-transform: uppercase;
+    font-size: 200%;
+    line-height: 100%
+}
+
+.cuk-mvt-add-card-transition__heading--variant_B {
+    border-bottom: 0;
+    margin-bottom: 0
+}
+
+.cuk-mvt-add-card-transition__animation {
+    transition: .5s ease-in-out
+}
+
+.cuk-mvt-add-card-transition__progress-container {
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d8d8d8
+}
+
+.cuk-mvt-add-card-transition--progress-bar {
+    padding-bottom: 0;
+    margin-bottom: 8px;
+    border-bottom: 0
+}
+
+.cuk-mvt-add-card-transition__progress-bar {
+    flex: 1 1 auto;
+    display: flex;
+    height: 10px
+}
+
+.cuk-mvt-add-card-transition__progress-bar-layer {
+    flex: 1 1 auto;
+    background-color: #d8d8d8;
+    border-right: 3px solid #fff;
+    position: relative
+}
+
+.cuk-mvt-add-card-transition__progress-bar-layer:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden
+}
+
+.cuk-mvt-add-card-transition__progress-bar-layer:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    border-right: 0
+}
+
+.cuk-mvt-add-card-transition__progress-digits {
+    display: flex;
+    position: absolute;
+    font-size: 107.14286%;
+    line-height: 100%;
+    margin-bottom: 0
+}
+
+.cuk-mvt-add-card-transition__progress-bar-overlay {
+    transform-origin: top left;
+    transform: scaleX(0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #008203
+}
+
+.cuk-mvt-add-card-transition__progress-section {
+    display: block;
+    margin-left: 15px;
+    display: flex;
+    width: 33px;
+    font-family: Effra-Heavy;
+    height: 20px;
+    color: #008203;
+    overflow: hidden;
+    position: relative;
+    margin-top: 2px
+}
+
+.cuk-mvt-add-card-transition__progress-numbers {
+    margin-left: auto;
+    margin-bottom: 0;
+    line-height: 20px;
+    height: 20px
+}
+
+.cuk-mvt-add-card-transition__numbers {
+    text-align: center;
+    height: 20px;
+    line-height: 20px
+}
+
+.cuk-mvt-add-card-transition__numbers--opacity-hide {
+    opacity: 0
+}
+
+.cuk-mvt-add-card-transition__animation_progress {
+    transition: transform .5s ease
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick-container {
+    height: auto;
+    justify-content: center
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick {
+    position: relative;
+    flex: 1 1 auto;
+    display: flex
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick:last-child {
+    flex: 0 0 30px
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick:last-child:before {
+    display: none
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick:before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #d8d8d8;
+    position: absolute;
+    top: calc(50% - 3px);
+    z-index: 8
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick--currentstep .cuk-mvt-add-card-transition__progress-bar-tick-child,
+.cuk-mvt-add-card-transition__progress-bar-tick--currentstep:nth-last-child(2):before {
+    background-color: #3460f2
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick--active .cuk-mvt-add-card-transition__progress-bar-tick-child,
+.cuk-mvt-add-card-transition__progress-bar-tick--active:before {
+    background-color: #008203
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick--active .cuk-mvt-add-card-transition__progress-bar-tick-child:before {
+    position: absolute;
+    content: " ";
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 12px;
+    width: 5px;
+    border-bottom: 2.8px solid #fff;
+    border-right: 2.8px solid #fff;
+    top: 6px;
+    left: 11px
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick--transition-tick .cuk-mvt-add-card-transition__progress-bar-tick-child {
+    animation: a cubic-bezier(.17, .67, .83, .67) .5s
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick-child {
+    width: 30px;
+    height: 30px;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    display: block;
+    z-index: 9;
+    position: relative
+}
+
+.cuk-mvt-add-card-transition__progress-bar-tick-child--active {
+    background-color: #008203
+}
+
+.cuk-mvt-add-card-transition__skip-now {
+    color: #767675;
+    text-align: center;
+    margin-top: 5px;
+    position: absolute;
+    width: 100%
+}
+
+.cuk-mvt-add-card-transition__skip-now-button,
+.cuk-mvt-add-card-transition__skip-now-button:hover,
+.cuk-mvt-add-card-transition__skip-now-button:link,
+.cuk-mvt-add-card-transition__skip-now-button:visited {
+    color: #767675;
+    text-decoration: none;
+    background: none
+}
+
+.cuk-mvt-add-card-transition__skip-now-button:hover {
+    text-decoration: underline
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-add-card-transition__skip-now {
+        text-align: right;
+        margin-top: 20px
+    }
+
+    .cuk-mvt-add-card-transition__skip-now--funds {
+        margin-top: 0
+    }
+
+    .cuk-mvt-add-card-transition__heading--variant_B {
+        padding-bottom: 0
+    }
+}
+
+@keyframes a {
+    0% {
+        box-shadow: 0 0 0 0 rgba(52, 96, 242, 0);
+        transform: scale(1)
+    }
+
+    75% {
+        box-shadow: 0 0 0 15px rgba(52, 96, 242, .2);
+        transform: scale(1.25)
+    }
+
+    to {
+        box-shadow: 0 0 0 0 rgba(52, 96, 242, 0);
+        transform: scale(1)
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-add-card-transition__parent-overflow {
+        width: 100%;
+        margin-top: 8px
+    }
+
+    .cuk-mvt-add-card-transition__heading--variant-B {
+        padding-bottom: 0
+    }
+
+    .cuk-mvt-add-card-transition__progress-container {
+        margin-top: 0
+    }
+}
+
+#debit_card_details_add_page .cuk-mvt-add-card-transition__progress-container.cuk-mvt-add-card-transition--circle-container {
+    margin-bottom: 0;
+    border-bottom: 0
+}
+
+#debit_card_details_add_page .cuk-mvt-add-card-transition__heading {
+    margin-bottom: 0
+}
+
+#debit_card_details_add_page .cuk-mvt-add-card-transition__heading--variant_A,
+#debit_card_details_add_page .cuk-mvt-add-card-transition__heading--variant_C {
+    border-bottom: 0
+}
+
+@media (min-width:769px) {
+    .cuk-mvt-add-card-transition__progress-container {
+        width: 100%
+    }
+}
+
+@media (max-width:640px) {
+    .access_worldpay_form .cuk-mvt-add-card-transition__skip-now {
+        margin-top: 16px
+    }
+
+    .access_worldpay_form .cuk-mvt-add-card-transition__button-wrapper {
+        padding-bottom: 43px
+    }
+
+    #add_funds_from_registration.add_funds_from_registration.stars_generic_template .cuk-mvt-add-card-transition--add-funds-card.user_actions:after {
+        margin-top: 43px
+    }
+
+    .cuk-mvt-add-card-transition__progress-bar-tick--currentstep:before {
+        background-color: #3460f2
+    }
+}
+
+.stars_generic_template .cuk-mvt-add-card-transition__skip-now-button,
+.stars_generic_template .cuk-mvt-add-card-transition__skip-now-button:link,
+.stars_generic_template .cuk-mvt-add-card-transition__skip-now-button:visited {
+    text-decoration: none
+}
+
+.stars_generic_template .cuk-mvt-add-card-transition__skip-now-button:hover {
+    text-decoration: underline
+}
+
+.debit_card_details_add_page .content_wrapper .add_card_icons_wrapper {
+    display: block
+}
+
+#_opt008_app_block_version_ {
+    content: "1.11.1"
+}
+
+.cuk-mvt-app-block {
+    border: 5px solid #0a0086;
+    border-radius: 10px;
+    margin: 15px 15px 0
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block {
+        border-color: #3460f2;
+        margin-bottom: 60px;
+        float: left;
+        width: calc(50% - 35px);
+        margin-right: 70px;
+        margin: 5.5em 70px 60px 0
+    }
+}
+
+.cuk-mvt-app-block-app-button {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px
+}
+
+.cuk-mvt-app-block-app-button a:focus,
+.cuk-mvt-app-block-app-button a:hover {
+    background: none
+}
+
+.cuk-mvt-app-block-app-button img {
+    display: block
+}
+
+.cuk-mvt-app-block-list {
+    font-family: Effra-Reg;
+    background-color: #fff;
+    padding: 30px 32px 16px;
+    position: relative
+}
+
+.cuk-mvt-app-block-list__header {
+    font-family: Effra-Heavy;
+    color: navy;
+    font-size: 185.71429%;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.cuk-mvt-app-block-list__header span {
+    display: block
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-list__header span {
+        display: inline-block
+    }
+}
+
+.cuk-mvt-app-block-list__container {
+    display: flex;
+    flex-wrap: wrap
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-list__container {
+        justify-content: space-between
+    }
+}
+
+.cuk-mvt-app-block-list__item {
+    display: flex;
+    padding-bottom: 16px;
+    border-bottom: 1px solid navy;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    align-items: center
+}
+
+.cuk-mvt-app-block-list__item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-list__item {
+        width: 48%;
+        border-bottom: 1px solid navy
+    }
+
+    .cuk-mvt-app-block-list__item:first-child,
+    .cuk-mvt-app-block-list__item:nth-child(2) {
+        padding-bottom: 14px;
+        margin-bottom: 14px
+    }
+
+    .cuk-mvt-app-block-list__item:nth-child(3),
+    .cuk-mvt-app-block-list__item :nth-child(4) {
+        border-bottom: 0
+    }
+}
+
+@media screen and (min-width:641px) and (min-width:641px) {
+
+    .cuk-mvt-app-block-list__item:nth-child(3),
+    .cuk-mvt-app-block-list__item :nth-child(4) {
+        margin-bottom: 20px;
+        padding-bottom: 0
+    }
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-list__item:last-child {
+        margin-bottom: 20px;
+        padding-bottom: 0
+    }
+}
+
+.cuk-mvt-app-block-list__icon {
+    flex: 0 0 62px
+}
+
+.cuk-mvt-app-block-list__icon img {
+    display: block;
+    margin: 0 auto
+}
+
+.cuk-mvt-app-block-list__mobile-icon {
+    position: absolute;
+    top: -9px;
+    right: -13px
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-app-block-list__mobile-icon {
+        width: 45px;
+        height: 55px
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-app-block-list__mobile-icon {
+        width: unset;
+        height: unset;
+        top: -20px
+    }
+}
+
+.cuk-mvt-app-block-list__text {
+    color: navy;
+    margin: 0;
+    align-self: center;
+    font-size: 100%;
+    line-height: 100%;
+    text-align: left
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-list__text {
+        font-size: 114.28571%;
+        line-height: 100%
+    }
+}
+
+.cuk-mvt-app-block-list__app-button {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px
+}
+
+.cuk-mvt-app-block-list__app-button a:focus,
+.cuk-mvt-app-block-list__app-button a:hover {
+    background: none
+}
+
+.cuk-mvt-app-block-list__app-button img {
+    display: block
+}
+
+.cuk-mvt-app-block-list__tc {
+    font-size: 85.71429%;
+    line-height: 100%;
+    text-align: center;
+    color: navy;
+    margin-bottom: 0
+}
+
+.cuk-mvt-app-block-image {
+    position: relative;
+    height: 488px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-image {
+        height: 260px
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-app-block-image {
+        height: 345px
+    }
+}
+
+.cuk-mvt-app-block-image__background {
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+    background-image: url(/c/i/bespoke/opt/appblock/background.svg);
+    z-index: -1
+}
+
+.cuk-mvt-app-block-image__phone {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-image__phone img {
+        width: 50%
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-app-block-image__phone img {
+        width: 70%
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-app-block-image__phone img {
+        width: 100%
+    }
+}
+
+.cuk-mvt-app-block-image__icon {
+    position: absolute;
+    top: -9px;
+    right: -13px
+}
+
+.cuk-mvt-app-block-image__container {
+    position: relative;
+    bottom: 144px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-image__container {
+        position: absolute;
+        right: 10px;
+        bottom: auto;
+        top: 85px
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-app-block-image__container {
+        right: 30px
+    }
+}
+
+.cuk-mvt-app-block-image__header {
+    font-family: Effra-Heavy;
+    color: navy;
+    font-size: 185.71429%;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%
+}
+
+.cuk-mvt-app-block-image__header span {
+    display: block
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-image__header span {
+        margin-bottom: 30px
+    }
+}
+
+.cuk-mvt-app-block-image__tc {
+    font-size: 85.71429%;
+    line-height: 100%;
+    text-align: center;
+    color: navy;
+    margin-bottom: 0
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-dream-big {
+        height: auto;
+        width: calc(50% - 35px);
+        float: left
+    }
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-app-block-dream-big .cuk_dream_big .cuk_inner .content_inner:before {
+        width: 19%;
+        height: 100%
+    }
+}
+
+.cuk-mvt-app-block-dream-big .cuk_dream_big .cuk_inner .content_inner h2 {
+    font-size: 242.85714%;
+    line-height: 108.82353%
+}
+
+.cuk-mvt-app-block-dream-big .cuk_dream_big .cuk_inner .content_inner p {
+    font-size: 114.28571%;
+    line-height: 125%
+}
+
+#_opt009_signup_text_version_ {
+    content: "1.3.1"
+}
+
+@media screen and (min-width:641px) {
+
+    .new_brand_template .account_bar .account_bar_inner .account_list a.register_link.cuk-mvt-signup-button,
+    .new_brand_template .account_bar .account_bar_inner .account_list a.register_link:link.cuk-mvt-signup-button,
+    .new_brand_template .account_bar .account_bar_inner .account_list a.register_link:visited.cuk-mvt-signup-button {
+        margin-right: 5px
+    }
+}
+
+.new_brand_template .account_bar .account_bar_inner .account_list a.register_link.cuk-mvt-signup-button--text-button,
+.new_brand_template .account_bar .account_bar_inner .account_list a.register_link:link.cuk-mvt-signup-button--text-button,
+.new_brand_template .account_bar .account_bar_inner .account_list a.register_link:visited.cuk-mvt-signup-button--text-button {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #fff;
+    height: auto;
+    width: auto;
+    line-height: normal;
+    padding-bottom: 0;
+    margin-top: 2px;
+    text-transform: none;
+    font-size: 16px;
+    letter-spacing: .3px;
+    margin-right: 10px
+}
+
+@media screen and (min-width:641px) {
+
+    .new_brand_template .account_bar .account_bar_inner .account_list a.register_link.cuk-mvt-signup-button--text-button,
+    .new_brand_template .account_bar .account_bar_inner .account_list a.register_link:link.cuk-mvt-signup-button--text-button,
+    .new_brand_template .account_bar .account_bar_inner .account_list a.register_link:visited.cuk-mvt-signup-button--text-button {
+        margin-right: 5px
+    }
+}
+
+#_opt010_dbg_countdown_version_ {
+    content: "1.11.1"
+}
+
+.cuk-mvt-dbg-countdown-parent--main-block .game_brand {
+    padding-top: 12px;
+    margin-bottom: 14px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-dbg-countdown-parent--playslip.lotto .cuk-mvt-dbg-countdown-container {
+        margin-top: 24px
+    }
+}
+
+.cuk-mvt-dbg-countdown-container--main-block {
+    z-index: 5;
+    position: absolute;
+    top: 20px;
+    left: 9px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-dbg-countdown-container--main-block {
+        top: 30px;
+        left: 54px
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-dbg-countdown-container--main-block {
+        left: 9px;
+        top: 30px
+    }
+}
+
+.cuk-mvt-dbg-countdown-container--dropdown {
+    position: relative;
+    margin-bottom: 14px
+}
+
+.cuk-mvt-dbg-countdown-container--playslip {
+    position: absolute;
+    z-index: 0;
+    left: 10px;
+    bottom: -42px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-dbg-countdown-container--playslip {
+        bottom: auto;
+        left: 10px;
+        position: relative
+    }
+}
+
+.cuk-mvt-dbg-countdown {
+    position: relative;
+    font-size: 14px
+}
+
+.cuk-mvt-dbg-countdown--dropdown {
+    font-size: 10px
+}
+
+.cuk-mvt-dbg-countdown--main-block {
+    font-size: 9.5px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-dbg-countdown--main-block {
+        font-size: 14px
+    }
+}
+
+.cuk-mvt-dbg-countdown--playslip {
+    font-size: 10px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-dbg-countdown--playslip {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-dbg-countdown--playslip {
+        font-size: 14px
+    }
+}
+
+.cuk-mvt-dbg-countdown--playslip .cuk-mvt-dbg-countdown-mobile-hide {
+    display: none
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-dbg-countdown--playslip .cuk-mvt-dbg-countdown-mobile-hide {
+        display: inline-block
+    }
+}
+
+.cuk-mvt-dbg-countdown__circle {
+    height: 3.286em;
+    width: 3.286em;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    background: #fff;
+    left: -.643em;
+    top: -.35em;
+    align-items: center;
+    justify-content: center
+}
+
+.cuk-mvt-dbg-countdown__circle-icon {
+    width: 1.714em;
+    height: 1.929em
+}
+
+.cuk-mvt-dbg-countdown__circle-icon--lotto,
+.cuk-mvt-dbg-countdown__circle-icon--lotto_hotpicks {
+    filter: invert(9%) sepia(81%) saturate(7150%) hue-rotate(342deg) brightness(75%) contrast(97%)
+}
+
+.cuk-mvt-dbg-countdown__circle-icon--euromillions {
+    filter: invert(53%) sepia(97%) saturate(2149%) hue-rotate(7deg) brightness(92%) contrast(93%)
+}
+
+.cuk-mvt-dbg-countdown__circle-icon--euromillions_hotpicks {
+    filter: invert(21%) sepia(71%) saturate(3201%) hue-rotate(16deg) brightness(95%) contrast(98%)
+}
+
+.cuk-mvt-dbg-countdown__circle-icon--set_for_life {
+    filter: invert(40%) sepia(87%) saturate(1887%) hue-rotate(153deg) brightness(91%) contrast(97%)
+}
+
+.cuk-mvt-dbg-countdown__circle-icon--thunderball {
+    filter: invert(15%) sepia(30%) saturate(7460%) hue-rotate(295deg) brightness(91%) contrast(107%)
+}
+
+.cuk-mvt-dbg-countdown__text-container {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 22px;
+    padding: .571em .857em .429em 3.357em;
+    display: inline-block
+}
+
+.cuk-mvt-dbg-countdown__text {
+    color: #fff;
+    margin: 0;
+    font-size: 1.394em;
+    font-family: Effra-Heavy;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: .02em
+}
+
+#_opt011_iwg_try_version_ {
+    content: "1.13.1"
+}
+
+.cuk-mvt-iwg-try-green {
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    background: #44f05c;
+    padding: 15px;
+    font-family: Effra-Reg;
+    color: navy;
+    position: relative;
+    justify-content: space-between;
+    border-radius: 10px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-green {
+        height: 241px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .cuk-mvt-iwg-try-green {
+        height: unset
+    }
+}
+
+.cuk-mvt-iwg-try-green--home-page {
+    margin-top: 50px;
+    margin-bottom: 34px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-green--home-page {
+        margin-top: 60px;
+        margin-bottom: 30px
+    }
+}
+
+.cuk-mvt-iwg-try-green--about-games {
+    margin: 0 10px 60px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-green--about-games {
+        margin: 0 0 60px px
+    }
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-green {
+        flex-wrap: nowrap;
+        padding: 30px
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-iwg-try-green {
+        flex-wrap: nowrap;
+        padding: 70px
+    }
+}
+
+.cuk-mvt-iwg-try-green * {
+    z-index: 1
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-green__text-container {
+        max-width: 40%
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .cuk-mvt-iwg-try-green__text-container {
+        max-width: 61%
+    }
+}
+
+.cuk-mvt-iwg-try-green__header {
+    font-size: 1.375rem;
+    font-family: Effra-Heavy;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-green__header {
+        font-size: 1.75rem
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .cuk-mvt-iwg-try-green__header {
+        font-size: 2.125rem
+    }
+}
+
+.cuk-mvt-iwg-try-green__text {
+    font-size: 1rem;
+    line-height: normal;
+    margin-bottom: 7px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-green__text {
+        margin: 0;
+        font-size: 1.125rem
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .cuk-mvt-iwg-try-green__text {
+        font-size: 1.5rem
+    }
+}
+
+.cuk-mvt-iwg-try-green__icon {
+    position: relative;
+    width: 4.625rem;
+    height: 5.5625rem
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-green__icon {
+        order: 0;
+        width: 6.25rem;
+        height: unset
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-iwg-try-green__icon {
+        position: absolute;
+        top: 1.875rem;
+        right: 19rem;
+        width: 9.25rem;
+        height: 11.125rem
+    }
+}
+
+.cuk-mvt-iwg-try-green__button.cuk_btn:not([class*=small]) {
+    align-self: flex-end;
+    font-size: .875rem;
+    padding: 14px 31px;
+    margin-bottom: 5px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-green__button.cuk_btn:not([class*=small]) {
+        order: 1;
+        align-self: center;
+        margin: 0
+    }
+}
+
+.cuk-mvt-iwg-try-green__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0
+}
+
+.cuk-mvt-iwg-try-blue {
+    width: 100%;
+    background: #1425ad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-blue--view-all-games {
+        position: absolute;
+        width: 48.6%;
+        right: 2em;
+        padding: 17.5px 30px;
+        top: 36px
+    }
+}
+
+.cuk-mvt-iwg-try-blue--iwg-outcome {
+    display: block;
+    padding: 30px 20px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-blue--iwg-outcome {
+        position: absolute;
+        width: 40%;
+        right: 2em;
+        padding: 30px;
+        top: 36px
+    }
+}
+
+.cuk-mvt-iwg-try-blue * {
+    z-index: 1;
+    position: relative
+}
+
+.cuk-mvt-iwg-try-blue__header {
+    font-family: Effra-Heavy;
+    color: #fff;
+    font-size: 1.375rem;
+    text-transform: uppercase;
+    margin-bottom: 0
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-blue__header {
+        font-size: 1.75rem
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .cuk-mvt-iwg-try-blue__header--view-all-games span {
+        display: block
+    }
+}
+
+.cuk-mvt-iwg-try-blue__header--iwg-outcome {
+    font-size: 2.125rem;
+    line-height: 2.75rem
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-blue__header--iwg-outcome {
+        font-size: 1.875rem;
+        line-height: 2.5rem
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-iwg-try-blue__header--iwg-outcome {
+        font-size: 2.125rem;
+        line-height: 2.75rem
+    }
+}
+
+.cuk-mvt-iwg-try-blue__text {
+    color: #fff;
+    width: 70%;
+    font-size: .875rem;
+    font-family: Effra-Reg;
+    line-height: 1.125rem;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-blue__text {
+        font-size: 1.125rem;
+        line-height: 1.5rem
+    }
+}
+
+.cuk-mvt-iwg-try-blue__icon {
+    width: 96px
+}
+
+.cuk-mvt-iwg-try-blue__icon--iwg-outcome {
+    position: absolute;
+    right: 5px;
+    bottom: 8px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-blue__icon--iwg-outcome {
+        display: none
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cuk-mvt-iwg-try-blue__icon--iwg-outcome {
+        display: block
+    }
+}
+
+.cuk-mvt-iwg-try-blue__icon--view-all-games {
+    margin-left: 10px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-blue__icon--view-all-games {
+        width: 80px;
+        margin-left: 20px
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-iwg-try-blue__icon--view-all-games {
+        margin-left: 10px
+    }
+}
+
+.cuk-mvt-iwg-try-blue__triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    z-index: 0
+}
+
+.cuk-mvt-iwg-try-blue__triangle--left {
+    left: 0;
+    bottom: 0;
+    border-width: 130px 0 0 130px;
+    border-color: transparent transparent transparent #1432c8
+}
+
+.cuk-mvt-iwg-try-blue__triangle--right {
+    right: 0;
+    top: 0;
+    border-width: 0 130px 130px 0;
+    border-color: transparent navy transparent transparent
+}
+
+.cuk-mvt-iwg-try-blue-view-games-sort-top {
+    margin-bottom: 0
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-blue-view-games-sort-top {
+        width: 50%;
+        margin-bottom: 83px
+    }
+}
+
+.cuk-mvt-iwg-try-blue-iwg-outcome-top {
+    margin-bottom: 0
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-blue-iwg-outcome-top {
+        width: 55% !important;
+        margin-bottom: 83px
+    }
+}
+
+.cuk-mvt-iwg-try-arrow-box {
+    padding: 10px 32px 10px 10px;
+    background-color: #fff;
+    box-shadow: 0 0 8px 0 hsla(0, 0%, 8%, .3);
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-arrow-box {
+        padding: 20px;
+        margin-top: 10px
+    }
+}
+
+@media screen and (min-width:861px) {
+    .cuk-mvt-iwg-try-arrow-box {
+        margin-top: 30px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .cuk-mvt-iwg-try-arrow-box {
+        margin-top: 10px
+    }
+}
+
+.cuk-mvt-iwg-try-arrow-box__text {
+    margin: 0;
+    font-size: .875rem;
+    font-family: Effra-Reg;
+    color: navy
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-arrow-box__text {
+        font-size: 1rem
+    }
+}
+
+.cuk-mvt-iwg-try-arrow-box__arrow {
+    position: absolute;
+    top: -27px;
+    right: 7px;
+    transform: rotate(17deg)
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-arrow-box__arrow {
+        top: -30px;
+        right: 10px;
+        transform: unset
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-iwg-try-arrow-box__arrow {
+        top: -30px;
+        right: 110px
+    }
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-details-cta {
+        width: 185px
+    }
+}
+
+.cuk-mvt-iwg-try-iwg-tile {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.cuk-mvt-iwg-try-iwg-tile--more-games {
+    bottom: 60px;
+    left: 20px;
+    width: 116px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-iwg-tile--more-games {
+        bottom: 76px;
+        width: 168px
+    }
+}
+
+.cuk-mvt-iwg-try-iwg-tile--desktop-nav {
+    bottom: -30px
+}
+
+.cuk-mvt-iwg-try-iwg-tile--view-all-games {
+    bottom: 13px
+}
+
+.cuk-mvt-iwg-try-iwg-tile--featured-block {
+    width: 116px;
+    bottom: 25px;
+    left: 20px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-iwg-tile--featured-block {
+        width: 168px;
+        bottom: 34px
+    }
+}
+
+.cuk-mvt-iwg-try-iwg-tile--featured-block-static {
+    width: 116px;
+    bottom: 25px;
+    left: 25px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-iwg-tile--featured-block-static {
+        left: 25px;
+        width: 140px;
+        bottom: 34px
+    }
+}
+
+@media screen and (min-width:961px) {
+    .cuk-mvt-iwg-try-iwg-tile--featured-block-static {
+        left: 30px;
+        width: 140px;
+        bottom: 34px
+    }
+}
+
+.cuk-mvt-iwg-try-iwg-tile__text {
+    font-family: Effra-Heavy;
+    color: navy;
+    font-size: .875rem;
+    border-bottom: 2px solid navy;
+    z-index: 1;
+    width: auto
+}
+
+@media screen and (min-width:641px) {
+    .cuk-mvt-iwg-try-iwg-tile__text {
+        font-size: 1rem
+    }
+}
+
+.cuk-mvt-iwg-try-iwg-tile__text:active,
+.cuk-mvt-iwg-try-iwg-tile__text:hover {
+    text-decoration: none
+}
+
+.cuk-mvt-iwg-try-iwg-tile__text--more-games {
+    font-size: 1rem
+}
+
+#games-gamestore-view-all-games-page .cuk-mvt-iwg-try-iwg-tile__text,
+.cuk-carousel .cuk_iwg_tile.js-entire-click-area .cuk-mvt-iwg-try-iwg-tile__text,
+.cuk_game_card.js-entire-click-area .cuk-mvt-iwg-try-iwg-tile__text,
+.cuk_secondary_promo.js-entire-click-area .cuk-mvt-iwg-try-iwg-tile__text,
+.nav_container_desktop_games .cuk_iwg_tile.js-entire-click-area .cuk-mvt-iwg-try-iwg-tile__text {
+    position: relative;
+    bottom: unset;
+    left: unset;
+    z-index: 101;
+    width: unset
+}
+
+.cuk-mvt-iwg-try-iwg-tile-parent--order-confirm {
+    margin-bottom: 20px
+}
+
+.cuk-mvt-iwg-try-iwg-tile-parent--featured-block.cuk_game_card.js-entire-click-area a .cuk_btn {
+    bottom: 24px
+}
+
+#gamestore_index_aga .cuk-mvt-iwg-try-iwg-tile-parent--view-all-games {
+    padding-bottom: 6em
+}
+
+@media screen and (min-width:641px) {
+    #gamestore_index_aga .cuk-mvt-iwg-try-iwg-tile-parent--view-all-games {
+        padding-bottom: 7em
+    }
+}
+
+#gamestore_index_aga .cuk-mvt-iwg-try-iwg-tile-parent--view-all-games.cuk_iwg_tile.js-entire-click-area .cuk_btn {
+    top: 80%
+}
+
+.cuk_game_card.iwg.cuk-mvt-iwg-try-carousel-tile .brand_bg_pattern .pixel_placement {
+    left: 50%
+}
+
+@media screen and (min-width:641px) {
+    #dbg_success_page .cuk-mvt-iwg-try-iwg-tile-parent--featured-block {
+        min-height: 33.5em
+    }
+}
+
+.cuk-carousel .cuk-mvt-iwg-try-carousel-tile.cuk_game_card.iwg .game_brand {
+    margin-bottom: 15px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-carousel .cuk-mvt-iwg-try-carousel-tile.cuk_game_card.iwg .game_brand {
+        margin-top: 25px;
+        margin-bottom: 30px
+    }
+}
+
+.cuk-carousel .cuk-mvt-iwg-try-carousel-tile.cuk_game_card.iwg h2.primary_line {
+    margin-right: 0
+}
+
+.cuk-carousel .cuk-mvt-iwg-try-carousel-tile.cuk_game_card.iwg p.secondary_line {
+    font-size: .875rem;
+    margin-right: 0
+}
+
+@media screen and (min-width:641px) {
+    .cuk-carousel .cuk-mvt-iwg-try-carousel-tile.cuk_game_card.iwg p.secondary_line {
+        font-size: 1rem
+    }
+}
+
+#_set_for_life_promo_hotfix_version_ {
+    content: "1.2.1"
+}
+
+[class*=dbg_play_page] #content_wrapper.sfl_promo_being_run:before {
+    height: 36rem !important
+}
+
+#_snap_accessibility_fix_version_ {
+    content: "1.2.1"
+}
+
+.lotto_prize_breakdown_page .prize_breakdown_view .base_fund_rolldown {
+    color: #696969
+}
+
+.registration_welcome_page .com_header {
+    margin: 0
+}
+
+.registration_welcome_page .com_header .com_inner {
+    border: none;
+    min-height: 40px
+}
+
+#_zx_files_version_ {
+    content: "1.162.1"
+}
+
+#results-page .promo_area {
+    background: #fff
+}
+
+@media screen and (max-width:960px) {
+
+    .home_page .header_wrapper,
+    .home_page .main_header,
+    .welcome_page .header_wrapper,
+    .welcome_page .main_header {
+        height: 4rem
+    }
+}
+
+.home_page .cuk_combined_header .cuk_combined_secondary_content .cuk_link[href="/results"]:active,
+.home_page .cuk_combined_header .cuk_combined_secondary_content .cuk_link[href="/results"]:focus {
+    text-decoration: none;
+    background-color: inherit;
+    border-bottom: 2px solid transparent
+}
+
+a:link,
+a:visited {
+    color: navy
+}
+
+:not([class*=-about-]) #main_sub_header .opaque,
+:not([class*=iwg_try_outcome_page]) #main_sub_header .opaque {
+    z-index: 10;
+    opacity: .6;
+    height: calc(100% - .26em)
+}
+
+[class*=games-gamestore-] #main_sub_header .opaque,
+[class*=iwg_play_] #main_sub_header .opaque,
+[class*=iwg_try_] #main_sub_header .opaque {
+    z-index: 10;
+    opacity: .6;
+    height: calc(100% - .4em)
+}
+
+[class*=-about-] #main_sub_header .opaque {
+    z-index: 10;
+    opacity: .59;
+    height: calc(100% - .13em)
+}
+
+[class*=dbg_play_] #main_sub_header .opaque,
+[class*=home_page] #main_sub_header .opaque {
+    z-index: 0;
+    opacity: 0;
+    height: 0
+}
+
+.footer .disclaimer_secondary {
+    max-width: 980px
+}
+
+.home_page .header_wrapper .main_sub_header {
+    padding-top: 0
+}
+
+.results-page .brand_border_top.set-for-life {
+    border-color: #00d6da
+}
+
+.results-page .brand_border_top[class*=lotto] {
+    border-color: #f00000
+}
+
+.results-page .brand_border_top.euromillions {
+    border-color: #f8b400
+}
+
+.results-page .brand_border_top.thunderball {
+    border-color: #bc13ad
+}
+
+.results-page .brand_border_top.euromillions-hotpicks {
+    border-color: #ff8000
+}
+
+#games_page #content .content_inner .grid_8 {
+    min-height: 520px
+}
+
+@media screen and (max-width:800px) {
+    #games_page #content .content_inner .grid_12 .com_sub_grid.set-for-life .playslip_header #nextdrawpromo {
+        font-size: 80%
+    }
+
+    #games_page #content .content_inner .grid_12 .com_sub_grid.set-for-life .playslip_header #nextdrawpromo .jackpots {
+        width: 75%
+    }
+
+    #games_page #content .content_inner .grid_12 .com_sub_grid.set-for-life .playslip_header #nextdrawpromo .unit {
+        margin: 0 5px
+    }
+
+    #games_page #content .content_inner .grid_12 .com_sub_grid.set-for-life .playslip_header #nextdrawpromo .unit.hours .number {
+        padding: 0 5px;
+        border: none
+    }
+}
+
+.my_account .announcement.announcement_error .announcement_inner a {
+    color: #3460f2
+}
+
+.my_account .announcement.announcement_error .announcement_inner a:hover {
+    text-decoration: underline
+}
+
+.my_account .announcement.announcement_error .announcement_inner a:active,
+.my_account .announcement.announcement_error .announcement_inner a:focus,
+.my_account .announcement.announcement_error .announcement_inner a:link,
+.my_account .announcement.announcement_error .announcement_inner a:visited {
+    color: #3460f2
+}
+
+.announcement.announcement_success .announcement_inner {
+    padding-left: 1em
+}
+
+.about-us-page .content_wrapper li a:not(.btn),
+.about-us-page .content_wrapper p a:not(.btn),
+.accessibility-page .content_wrapper li a:not(.btn),
+.accessibility-page .content_wrapper p a:not(.btn),
+.account-terms-page .content_wrapper li a:not(.btn),
+.account-terms-page .content_wrapper p a:not(.btn),
+.contact-us-page .content_wrapper li a:not(.btn),
+.contact-us-page .content_wrapper p a:not(.btn),
+.games-syndicates-page .content_wrapper li a:not(.btn),
+.games-syndicates-page .content_wrapper p a:not(.btn),
+.privacy-policy-page .content_wrapper li a:not(.btn),
+.privacy-policy-page .content_wrapper p a:not(.btn),
+.responsible-play-page .content_wrapper li a:not(.btn),
+.responsible-play-page .content_wrapper p a:not(.btn),
+.security-page .content_wrapper li a:not(.btn),
+.security-page .content_wrapper p a:not(.btn),
+.service-guide-page .content_wrapper li a:not(.btn),
+.service-guide-page .content_wrapper p a:not(.btn) {
+    color: #3460f2
+}
+
+.about-us-page .content_wrapper li a:not(.btn):hover,
+.about-us-page .content_wrapper p a:not(.btn):hover,
+.accessibility-page .content_wrapper li a:not(.btn):hover,
+.accessibility-page .content_wrapper p a:not(.btn):hover,
+.account-terms-page .content_wrapper li a:not(.btn):hover,
+.account-terms-page .content_wrapper p a:not(.btn):hover,
+.contact-us-page .content_wrapper li a:not(.btn):hover,
+.contact-us-page .content_wrapper p a:not(.btn):hover,
+.games-syndicates-page .content_wrapper li a:not(.btn):hover,
+.games-syndicates-page .content_wrapper p a:not(.btn):hover,
+.privacy-policy-page .content_wrapper li a:not(.btn):hover,
+.privacy-policy-page .content_wrapper p a:not(.btn):hover,
+.responsible-play-page .content_wrapper li a:not(.btn):hover,
+.responsible-play-page .content_wrapper p a:not(.btn):hover,
+.security-page .content_wrapper li a:not(.btn):hover,
+.security-page .content_wrapper p a:not(.btn):hover,
+.service-guide-page .content_wrapper li a:not(.btn):hover,
+.service-guide-page .content_wrapper p a:not(.btn):hover {
+    text-decoration: underline
+}
+
+.about-us-page .content_wrapper li a:not(.btn):active,
+.about-us-page .content_wrapper li a:not(.btn):focus,
+.about-us-page .content_wrapper li a:not(.btn):link,
+.about-us-page .content_wrapper li a:not(.btn):visited,
+.about-us-page .content_wrapper p a:not(.btn):active,
+.about-us-page .content_wrapper p a:not(.btn):focus,
+.about-us-page .content_wrapper p a:not(.btn):link,
+.about-us-page .content_wrapper p a:not(.btn):visited,
+.accessibility-page .content_wrapper li a:not(.btn):active,
+.accessibility-page .content_wrapper li a:not(.btn):focus,
+.accessibility-page .content_wrapper li a:not(.btn):link,
+.accessibility-page .content_wrapper li a:not(.btn):visited,
+.accessibility-page .content_wrapper p a:not(.btn):active,
+.accessibility-page .content_wrapper p a:not(.btn):focus,
+.accessibility-page .content_wrapper p a:not(.btn):link,
+.accessibility-page .content_wrapper p a:not(.btn):visited,
+.account-terms-page .content_wrapper li a:not(.btn):active,
+.account-terms-page .content_wrapper li a:not(.btn):focus,
+.account-terms-page .content_wrapper li a:not(.btn):link,
+.account-terms-page .content_wrapper li a:not(.btn):visited,
+.account-terms-page .content_wrapper p a:not(.btn):active,
+.account-terms-page .content_wrapper p a:not(.btn):focus,
+.account-terms-page .content_wrapper p a:not(.btn):link,
+.account-terms-page .content_wrapper p a:not(.btn):visited,
+.contact-us-page .content_wrapper li a:not(.btn):active,
+.contact-us-page .content_wrapper li a:not(.btn):focus,
+.contact-us-page .content_wrapper li a:not(.btn):link,
+.contact-us-page .content_wrapper li a:not(.btn):visited,
+.contact-us-page .content_wrapper p a:not(.btn):active,
+.contact-us-page .content_wrapper p a:not(.btn):focus,
+.contact-us-page .content_wrapper p a:not(.btn):link,
+.contact-us-page .content_wrapper p a:not(.btn):visited,
+.games-syndicates-page .content_wrapper li a:not(.btn):active,
+.games-syndicates-page .content_wrapper li a:not(.btn):focus,
+.games-syndicates-page .content_wrapper li a:not(.btn):link,
+.games-syndicates-page .content_wrapper li a:not(.btn):visited,
+.games-syndicates-page .content_wrapper p a:not(.btn):active,
+.games-syndicates-page .content_wrapper p a:not(.btn):focus,
+.games-syndicates-page .content_wrapper p a:not(.btn):link,
+.games-syndicates-page .content_wrapper p a:not(.btn):visited,
+.privacy-policy-page .content_wrapper li a:not(.btn):active,
+.privacy-policy-page .content_wrapper li a:not(.btn):focus,
+.privacy-policy-page .content_wrapper li a:not(.btn):link,
+.privacy-policy-page .content_wrapper li a:not(.btn):visited,
+.privacy-policy-page .content_wrapper p a:not(.btn):active,
+.privacy-policy-page .content_wrapper p a:not(.btn):focus,
+.privacy-policy-page .content_wrapper p a:not(.btn):link,
+.privacy-policy-page .content_wrapper p a:not(.btn):visited,
+.responsible-play-page .content_wrapper li a:not(.btn):active,
+.responsible-play-page .content_wrapper li a:not(.btn):focus,
+.responsible-play-page .content_wrapper li a:not(.btn):link,
+.responsible-play-page .content_wrapper li a:not(.btn):visited,
+.responsible-play-page .content_wrapper p a:not(.btn):active,
+.responsible-play-page .content_wrapper p a:not(.btn):focus,
+.responsible-play-page .content_wrapper p a:not(.btn):link,
+.responsible-play-page .content_wrapper p a:not(.btn):visited,
+.security-page .content_wrapper li a:not(.btn):active,
+.security-page .content_wrapper li a:not(.btn):focus,
+.security-page .content_wrapper li a:not(.btn):link,
+.security-page .content_wrapper li a:not(.btn):visited,
+.security-page .content_wrapper p a:not(.btn):active,
+.security-page .content_wrapper p a:not(.btn):focus,
+.security-page .content_wrapper p a:not(.btn):link,
+.security-page .content_wrapper p a:not(.btn):visited,
+.service-guide-page .content_wrapper li a:not(.btn):active,
+.service-guide-page .content_wrapper li a:not(.btn):focus,
+.service-guide-page .content_wrapper li a:not(.btn):link,
+.service-guide-page .content_wrapper li a:not(.btn):visited,
+.service-guide-page .content_wrapper p a:not(.btn):active,
+.service-guide-page .content_wrapper p a:not(.btn):focus,
+.service-guide-page .content_wrapper p a:not(.btn):link,
+.service-guide-page .content_wrapper p a:not(.btn):visited {
+    color: #3460f2
+}
+
+footer .footer.tnl_foooter {
+    margin-top: 80px
+}
+
+#games-euromillions-about-euromillions-page footer .footer.tnl_foooter,
+#games-euromillions-hotpicks-about-euromillions-hotpicks-page footer .footer.tnl_foooter,
+#games-gamestore-about-gamestore-page footer .footer.tnl_foooter,
+#games-gamestore-view-all-games-page footer .footer.tnl_foooter,
+#games-lotto-about-lotto-page footer .footer.tnl_foooter,
+#games-lotto-hotpicks-about-lotto-hotpicks-page footer .footer.tnl_foooter,
+#games-set-for-life-about-set-for-life-page footer .footer.tnl_foooter,
+#games-thunderball-about-thunderball-page footer .footer.tnl_foooter,
+#home_page footer .footer.tnl_foooter,
+#life-changing-page footer .footer.tnl_foooter,
+#results-page footer .footer.tnl_foooter,
+body.draw_based_games footer .footer.tnl_foooter,
+body[id^=home_page_] footer .footer.tnl_foooter {
+    margin-top: 0
+}
+
+.dbg_success_page #content .content_inner .your_ticket div#spend_limit_info h2 a,
+.dbg_success_page #content .content_inner .your_ticket div#spend_limit_info h2 a:visited {
+    color: #3460f2
+}
+
+.community-rules-page .list_dots_gray li,
+.coronavirus-faq-page .list_dots_gray li,
+.responsible-play-consumer-protection-strategy-page .list_dots_gray li,
+.service-guide-page .list_dots_gray li {
+    width: 82%
+}
+
+.cinema-weekend-terms-and-conditions-page .list_dots_gray li,
+.community-rules-page .list_dots_gray li {
+    width: 81%
+}
+
+.iwg_play_details_confirm_page .list_dots_gray {
+    width: 91%
+}
+
+@media screen and (max-width:960px) and (max-height:600px) {
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item {
+        margin-top: .25em !important;
+        padding-left: .75em !important;
+        height: 11vh !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item.first_row {
+        padding-top: 0 !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item.first_row .dropdown_link {
+        padding-top: .5em !important;
+        height: 11vh !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item.button {
+        height: 2.5em !important;
+        margin-top: 1em !important;
+        padding-left: 0 !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_link {
+        font-size: 1.1em !important
+    }
+}
+
+@media screen and (max-width:960px) and (max-height:340px) {
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item {
+        margin-top: .25em !important;
+        padding-left: .75em !important;
+        height: 9vh !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item.first_row {
+        padding-top: 0 !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item.first_row .dropdown_link {
+        padding-top: .5em !important;
+        height: 9vh !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item.button {
+        height: 2.5em !important;
+        margin-top: 1em !important;
+        padding-left: 0 !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_link {
+        font-size: 1.1em !important
+    }
+}
+
+@media screen and (max-width:600px) and (max-height:320px) {
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item {
+        margin-top: .25em !important;
+        padding-left: .75em !important;
+        height: 7vh !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item.first_row {
+        padding-top: 0 !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item.first_row .dropdown_link {
+        padding-top: .5em !important;
+        height: 7vh !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_item.button {
+        height: 2.5em !important;
+        margin-top: 1em !important;
+        padding-left: 0 !important
+    }
+
+    .new_brand_template .mobile.account_bar .logged_in_account_bar .active_dropdown_menu .dropdown_link {
+        font-size: 1.1em !important
+    }
+}
+
+.cuk.cuk_secondary_promo .image .inner.clr img {
+    margin-bottom: -1em
+}
+
+.euromillions_dbg_success #euromillions_held .cuk_game_card.lotto:not(.has_image) .brand_bg_primary {
+    background: #e5013b
+}
+
+.euromillions_dbg_success #euromillions_held .cuk_game_card.lotto:not(.has_image) .brand_bg_primary:before {
+    display: none
+}
+
+.euromillions_dbg_success #euromillions_held .cuk_game_card.lotto.has_image .brand_bg_pattern {
+    background: linear-gradient(45deg, #cc0034 15%, transparent 0, transparent 85%, #b50a2f 0)
+}
+
+.euromillions_dbg_success #euromillions_held .cuk_game_card.lotto.has_image .brand_bg_pattern:before {
+    display: none
+}
+
+#games-gamestore-scratchcards-page #content_wrapper #content .content_inner .grid_12 .inner p.cuk_bsp_scratchcard_note {
+    margin: -3.5em 0 3em
+}
+
+@media screen and (max-width:640px) {
+    #games-gamestore-scratchcards-page #content_wrapper #content .content_inner .grid_12 .inner p.cuk_bsp_scratchcard_note {
+        margin-top: -2.5em
+    }
+}
+
+.com_core_app.thunderball .playslip_form .announcement_inner {
+    margin: 0 !important
+}
+
+.com_core_app.thunderball .announcement {
+    display: block;
+    position: relative;
+    margin: 0 !important;
+    outline: none;
+    padding: 10px 0
+}
+
+#iwg_play_details_confirm_page #content_wrapper #content .content_inner .grid_12 .inner .iwg_game_details_confirm_page .grid_8 .inner .iwg_confirm_purchase .com_inner .panel .panel_body {
+    color: navy
+}
+
+#iwg_play_details_confirm_page #content_wrapper #content .content_inner .grid_12 .inner .iwg_game_details_confirm_page .grid_8 .inner .iwg_confirm_purchase .com_inner .panel .panel_body p.iwg_header {
+    text-transform: uppercase;
+    font-family: Effra-Heavy
+}
+
+#iwg_play_outcome_page #content_wrapper #content .content_inner .grid_8 .inner #iwg_play_outcome .com_inner .panel .panel_body #view_all_games {
+    display: inline-block;
+    font-family: Effra-Heavy;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 25px;
+    min-width: 12em;
+    font-size: 1em;
+    height: auto;
+    line-height: 100%;
+    padding: 1em;
+    background-color: navy;
+    color: #fff;
+    border: 2px solid transparent
+}
+
+#games-gamestore-view-all-games-page #main_wrapper #content .content_inner .grid_12 .inner .announcement {
+    padding: 10px 0 50px
+}
+
+@media only screen and (max-width:900px) {
+    #games-gamestore-view-all-games-page #main_wrapper #content .content_inner .grid_12 .inner .announcement {
+        padding: 10px 0
+    }
+}
+
+#registration_welcome_page .header_wrapper {
+    height: 5rem
+}
+
+#registration_welcome_page .header_wrapper .main_sub_header {
+    padding-top: 0
+}
+
+#registration_welcome_page .com_header {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+@media only screen and (max-width:960px) {
+    #registration_welcome_page .header_wrapper {
+        height: 4.4rem
+    }
+}
+
+#dbg_success_page .cuk_game_card.tnl .brand_bg_primary {
+    background: #3460f2 !important
+}
+
+#dbg_success_page .cuk_game_card.lotto .brand_bg_primary {
+    background: #e5013b !important
+}
+
+#dbg_success_page .cuk_game_card.euromillions .brand_bg_primary {
+    background: #f8b400 !important
+}
+
+#dbg_success_page .cuk_game_card.set_for_life .brand_bg_primary {
+    background: #00d6da !important
+}
+
+#dbg_success_page .cuk_game_card.thunderball .brand_bg_primary {
+    background: #bc13ad !important
+}
+
+#dbg_success_page .cuk_game_card.lotto_hotpicks .brand_bg_primary {
+    background: #e5013b !important
+}
+
+#dbg_success_page .cuk_game_card.euromillions_hotpicks .brand_bg_primary {
+    background: #ff8000 !important
+}
+
+.debit_card_details_add_page.stars_template input[type=submit] {
+    width: auto
+}
+
+.cuk_combined_header .vh {
+    border: 0 !important;
+    clip: rect(0, 0, 0, 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important
+}
+
+body:not(.results-how-to-claim-page) .content_wrapper .accordion .blind .blind_head .blind_heading h2,
+body:not(.results-how-to-claim-page) .content_wrapper .bau_accordion .accordion .blind .blind_head .blind_heading h2 {
+    margin-right: 1em
+}
+
+.games-gamestore-scratchcards-page .cuk_secondary_promo.scratchcards .tab_line.effra_heavy {
+    overflow: visible
+}
+
+@media screen and (max-width:960px) {
+
+    #my_account_dbg_claim_confirm_page #my_account_dbg_claim_confirm .float_right,
+    #my_account_message_details_page #my_account_message .float_right {
+        float: none;
+        margin-left: 0
+    }
+}
+
+.funds_page.stars_generic_template .header_with_message_container h1.header_medium:after {
+    content: "";
+    display: inline-block;
+    background-image: url(/c/i/css/cuk_my_account/icon_padlock.svg~cc05);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 20px;
+    margin-left: 5px
+}
+
+@media (max-width:640px) {
+    .funds_page.stars_generic_template .header_with_message_container h1.header_medium:after {
+        position: absolute;
+        right: 10px
+    }
+}
+
+.funds_add_page.stars_generic_template .header_with_message_container h1.header_medium:after {
+    content: "";
+    display: inline-block;
+    background-image: url(/c/i/css/cuk_my_account/icon_padlock.svg~cc05);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 20px;
+    margin-left: 5px
+}
+
+@media (max-width:640px) {
+    .funds_add_page.stars_generic_template .header_with_message_container h1.header_medium:after {
+        position: absolute;
+        right: 10px
+    }
+}
+
+.debit_card_details_view_page.my_account .card_details_view .com_inner h1.header_medium:after {
+    content: "";
+    display: inline-block;
+    background-image: url(/c/i/css/cuk_my_account/icon_padlock.svg~cc05);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 20px;
+    margin-left: 5px
+}
+
+@media (max-width:640px) {
+    .debit_card_details_view_page.my_account .card_details_view .com_inner h1.header_medium:after {
+        position: absolute;
+        right: 10px
+    }
+}
+
+.debit_card_details_edit_page.stars_generic_template .debit_card_details_add .com_inner h1.header_account:after {
+    content: "";
+    display: inline-block;
+    background-image: url(/c/i/css/cuk_my_account/icon_padlock.svg~cc05);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 20px;
+    margin-left: 5px
+}
+
+@media (max-width:640px) {
+    .debit_card_details_edit_page.stars_generic_template .debit_card_details_add .com_inner h1.header_account:after {
+        position: absolute;
+        right: 10px
+    }
+}
+
+.debit_card_details_add_page.stars_template .main_content .com_header .com_inner h1.com_heading:after {
+    content: "";
+    display: inline-block;
+    background-image: url(/c/i/css/cuk_my_account/icon_padlock.svg~cc05);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 20px;
+    margin-left: 10px
+}
+
+@media (max-width:640px) {
+    .debit_card_details_add_page.stars_template .main_content .com_header .com_inner h1.com_heading:after {
+        position: absolute;
+        right: 10px
+    }
+}
+
+.debit_card_details_add_page.stars_generic_template .main_content .content_inner .grid_8 .debit_card_details_add .com_inner h1.header_medium:after {
+    content: "";
+    display: inline-block;
+    background-image: url(/c/i/css/cuk_my_account/icon_padlock.svg~cc05);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 20px;
+    margin-left: 10px
+}
+
+@media (max-width:640px) {
+    .debit_card_details_add_page.stars_generic_template .main_content .content_inner .grid_8 .debit_card_details_add .com_inner h1.header_medium:after {
+        position: absolute;
+        right: 10px
+    }
+}
+
+.add_funds_from_registration.stars_generic_template .main_content .com_header .com_inner .com_heading:after {
+    content: "";
+    display: inline-block;
+    background-image: url(/c/i/css/cuk_my_account/icon_padlock.svg~cc05);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 20px;
+    margin-left: 10px
+}
+
+@media (max-width:640px) {
+    .add_funds_from_registration.stars_generic_template .main_content .com_header .com_inner .com_heading:after {
+        position: absolute;
+        right: 10px
+    }
+}
+
+.funds_add_page.stars_generic_template #add_funds_form .panel .panel_body .user_actions {
+    display: inline-block
+}
+
+.funds_add_page.stars_generic_template #add_funds_form .panel .panel_body .user_actions:after {
+    content: "";
+    display: block;
+    background-image: url(/c/i/css/cuk_my_account/icon_secure_payment_update.svg~6aea);
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 74px;
+    margin: .5em auto;
+    visibility: visible
+}
+
+@media (max-width:640px) {
+    .funds_add_page.stars_generic_template #add_funds_form .panel .panel_body .user_actions {
+        display: block
+    }
+}
+
+.debit_card_details_edit_page.stars_generic_template #card-form .user_actions {
+    display: inline-block
+}
+
+.debit_card_details_edit_page.stars_generic_template #card-form .user_actions:after {
+    content: "";
+    display: block;
+    background-image: url(/c/i/css/cuk_my_account/icon_secure_payment_update.svg~6aea);
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 74px;
+    margin: .5em auto;
+    visibility: visible
+}
+
+@media (max-width:640px) {
+    .debit_card_details_edit_page.stars_generic_template #card-form .user_actions {
+        display: block
+    }
+}
+
+.add_funds_from_registration.stars_generic_template .js_form_fund_account .user_actions:after,
+.debit_card_details_add_page.stars_template .main_content .grid_12 .inner .main #debit_card_details_add .com_inner #add_card .com_inner #card-form .com_action.clr:after {
+    visibility: visible;
+    content: "";
+    display: block;
+    background-image: url(/c/i/css/cuk_my_account/icon_secure_payment_update.svg~6aea);
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 74px;
+    margin: .5em auto
+}
+
+@media (min-width:641px) {
+    .debit_card_details_add_page.stars_generic_template .iframe_wrapper .user_actions .button_wrapper {
+        display: inline-block
+    }
+}
+
+.debit_card_details_add_page.stars_generic_template .iframe_wrapper .user_actions .button_wrapper:after {
+    content: "";
+    display: block;
+    background-image: url(/c/i/css/cuk_my_account/icon_secure_payment_update.svg~6aea);
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 74px;
+    margin: .5em auto;
+    visibility: visible
+}
+
+.my_account input[type=checkbox]:not(:checked)+label .label-after {
+    margin-left: 0
+}
+
+#cuk_homepage_iwg_section .cuk-carousel__fade-container {
+    display: none
+}
+
+#results-page .euromillions.has_image .image {
+    border-radius: 0
+}
+
+.new_brand_template .playslip .board_clear .clear_icon {
+    border: none;
+    border-radius: 5%
+}
+
+.validate_email_verification.pop_up_email_verification_content.pop_up_age_limit_content.new_brand_template {
+    display: none !important
+}
+
+#my_account_manage_page .cls-dashboard-card {
+    height: unset;
+    min-height: 211px
+}
+
+#my_account_manage_page .cls-dashboard-card .cls-btn {
+    position: relative !important;
+    left: 0 !important;
+    bottom: -5% !important
+}
+
+#my_account_my_games_dbg_page .cls-history-item {
+    height: unset !important;
+    min-height: 92px !important
+}
+
+.forgot_password_confirm_page .forgotten_password_confirm .com_inner .com_main ul {
+    padding: 10px 0 0 20px
+}
+
+.forgot_password_confirm_page .forgotten_password_confirm .com_inner .com_main ul li p {
+    font-size: .85714em
+}
+
+.forgot_password_confirm_page .forgotten_password_confirm .com_inner .help_text {
+    font-size: .92582em
+}
+
+#games_page #header_wrapper #main_sub_header .opaque,
+#responsible-play-page .header_wrapper header .main_sub_header .opaque,
+#results-how-to-claim-page #header_wrapper #main_sub_header .opaque,
+#security-page #header_wrapper #main_sub_header .opaque,
+#sessionTimeReminderSignOut .header_wrapper header .main_sub_header .opaque,
+#successfullExclusion-app .header_wrapper header .main_sub_header .opaque,
+#successfullExclusion .header_wrapper header .main_sub_header .opaque {
+    height: calc(100% - .4em)
+}
+
+.main_content .bau_page a {
+    text-decoration: underline
+}
+
+.main_content .bau_page a:hover {
+    background: transparent;
+    text-decoration: none
+}
+
+.cms_message_bar_info .com_inner .cms_player_alerts {
+    display: none
+}
+
+.cms_message_bar_info .com_inner .cms_player_alerts.cuk_hrm {
+    background-color: #000 !important
+}
+
+.cms_message_bar_info .com_inner .cms_player_alerts.cuk_hrm .msg_wrapper {
+    margin: 0 25px 0 35px;
+    color: #fff !important
+}
+
+.cms_message_bar_info .com_inner .cms_player_alerts.cuk_hrm:after,
+.cms_message_bar_info .com_inner .cms_player_alerts.cuk_hrm:before {
+    display: none
+}
+
+@media screen and (max-width:570px) {
+    .cms_message_bar_info .com_inner .cms_player_alerts.cuk_hrm {
+        margin-top: .75rem
+    }
+}
+
+.funds_add_page .stars_generic_template #confirm_funds_action.disabled {
+    background-image: none
+}
+
+#games-gamestore-scratchcards-page .cuk_secondary_promo.js-entire-click-area.cuk_hover:active .cuk_inner .content .cuk_btn,
+#games-gamestore-scratchcards-page .cuk_secondary_promo.js-entire-click-area.cuk_hover:focus .cuk_inner .content .cuk_btn,
+#games-gamestore-scratchcards-page .cuk_secondary_promo.js-entire-click-area.cuk_hover:hover .cuk_inner .content .cuk_btn {
+    color: navy;
+    background-color: #fff
+}
+
+.cuk_tnl_story .cuk_inner .content .primary_line {
+    line-height: 1.1
+}
+
+.cuk_tnl_story .cuk_inner .content .secondary_line {
+    line-height: 100%
+}
+
+@media screen and (max-width:960px) {
+    .cuk_tnl_story .cuk_inner .content {
+        padding: 30px
+    }
+}
+
+@media screen and (max-width:640px) {
+    .cuk_tnl_story .cuk_inner .content {
+        padding: 20px
+    }
+
+    .cuk_tnl_story .cuk_inner .content .primary_line {
+        line-height: 120%
+    }
+
+    .cuk_tnl_story .cuk_inner .content .secondary_line {
+        line-height: 125%
+    }
+}
+
+#lotto-promo-page .header_wrapper .nav_wrap {
+    padding-bottom: 0
+}
+
+#lotto-promo-page .content_wrapper .main_content .cuk_bespoke_lp_hero h2 {
+    font-size: 400%;
+    line-height: 90%
+}
+
+#lotto-promo-page .content_wrapper .main_content .cuk_bespoke_lp_hero h2 span {
+    font-size: 90%
+}
+
+@media only screen and (min-width:801px) and (max-width:960px) {
+    #lotto-promo-page .header_wrapper .nav_wrap {
+        height: 70px
+    }
+}
+
+@media only screen and (max-width:640px) {
+    #lotto-promo-page .content_wrapper .main_content .cuk_bespoke_lp_hero h2 {
+        font-size: 360%
+    }
+
+    #lotto-promo-page .content_wrapper .main_content .cuk_bespoke_lp_hero h2 span {
+        font-size: 80%
+    }
+}
+
+@media only screen and (max-width:440px) {
+    #lotto-promo-page .content_wrapper .main_content .cuk_bespoke_lp_hero h2 {
+        font-size: 290%
+    }
+}
+
+@media only screen and (max-width:320px) {
+    #lotto-promo-page .content_wrapper .main_content .cuk_bespoke_lp_hero h2 {
+        font-size: 260%
+    }
+}
+
+.cuk-float-element--left,
+.cuk-float-element--right {
+    float: none;
+    margin-bottom: 10px
+}
+
+@media screen and (min-width:641px) {
+    .cuk-float-element--left {
+        float: left;
+        margin-right: 15px
+    }
+
+    .cuk-float-element--right {
+        float: right;
+        margin-left: 15px
+    }
+}
+
+/**/

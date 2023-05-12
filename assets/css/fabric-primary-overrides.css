@@ -1,0 +1,334 @@
+/*#_fabric_primary_overrides_version_{content:'1.10.1'}
+.main_wrapper {
+  overflow-x: hidden; }
+
+.com_primary_promo_block.lotto {
+  background-color: #000 !important; }
+  .com_primary_promo_block.lotto:before {
+    padding-top: 31%; }
+  .com_primary_promo_block.lotto a .com_content {
+    width: 100%;
+    height: 100%; }
+    .com_primary_promo_block.lotto a .com_content:after {
+      display: block;
+      content: "";
+      width: 20%;
+      height: 200px;
+      background-size: contain;
+      visibility: visible;
+      position: absolute;
+      right: 10px; }
+    .com_primary_promo_block.lotto a .com_content .proposition {
+      background: none;
+      padding: 40px 30px 20px; }
+      .com_primary_promo_block.lotto a .com_content .proposition .primary_headline {
+        font-size: 460%;
+        margin: 0;
+        width: 80%; }
+      .com_primary_promo_block.lotto a .com_content .proposition .secondary_headline {
+        font-size: 175%;
+        margin: 0; }
+    .com_primary_promo_block.lotto a .com_content .cta {
+      margin-left: 30px; }
+  .com_primary_promo_block.lotto[data-logo-text="white"] a .com_content:after {
+    background: url(/c/i/css/ash-dbg-logos/lo-ash-logo-white-text.png~2e43) no-repeat;
+    background-size: contain; }
+  .com_primary_promo_block.lotto[data-logo-text="black"] a .com_content:after {
+    background: url(/c/i/css/ash-dbg-logos/lo-ash-logo-black-text.png~2e43) no-repeat;
+    background-size: contain; }
+  .com_primary_promo_block.lotto[data-logo-position="bottom"] a .com_content:after {
+    bottom: 25px;
+    background-position: bottom right; }
+  .com_primary_promo_block.lotto[data-logo-position="top"] a .com_content:after {
+    top: 25px;
+    background-position: top right; }
+  .com_primary_promo_block.lotto[data-campaign-text="white"] a .com_content .proposition .primary_headline,
+  .com_primary_promo_block.lotto[data-campaign-text="white"] a .com_content .proposition .secondary_headline {
+    color: #fff;
+    text-shadow: 0 0 4px #000; }
+  .com_primary_promo_block.lotto[data-campaign-text="black"] a .com_content .proposition .primary_headline,
+  .com_primary_promo_block.lotto[data-campaign-text="black"] a .com_content .proposition .secondary_headline {
+    color: #000;
+    text-shadow: 0 0 4px #fff; }
+  .com_primary_promo_block.lotto.roll_0 {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_base_desktop.jpg~6d3c) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_1.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_rollover_desktop.jpg~b7b9) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_1.band {
+    background: url(/c/i/bespoke/new-lotto-hero/icecream_roll_and_double_d.jpg~ae9c) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_1.laser {
+    background: url(/c/i/bespoke/new-lotto-hero/laser_rollover_desktop.jpg~602c) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_1.confetti {
+    background: url(/c/i/bespoke/new-lotto-hero/confetti_rollover_desktop.jpg~7d93) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_2.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_double_desktop.jpg~7919) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_2.band {
+    background: url(/c/i/bespoke/new-lotto-hero/icecream_roll_and_double_d.jpg~ae9c) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_2.laser {
+    background: url(/c/i/bespoke/new-lotto-hero/laser_double_desktop.jpg~69e5) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_2.confetti {
+    background: url(/c/i/bespoke/new-lotto-hero/confetti_double_desktop.jpg~270f) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_3.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_triple_desktop.jpg~c853) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_3.band {
+    background: url(/c/i/bespoke/new-lotto-hero/icecream_triple_d.jpg~5df9) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_3.laser {
+    background: url(/c/i/bespoke/new-lotto-hero/laser_triple_desktop.jpg~31c6) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_3.confetti {
+    background: url(/c/i/bespoke/new-lotto-hero/confetti_triple_desktop.jpg~8659) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_4.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_quad_desktop.jpg~9cf6) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_4.band {
+    background: url(/c/i/bespoke/new-lotto-hero/icecream_quad_d.jpg~3cee) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_4.laser {
+    background: url(/c/i/bespoke/new-lotto-hero/laser_quad_desktop.jpg~3bdb) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_4.confetti {
+    background: url(/c/i/bespoke/new-lotto-hero/confetti_quad_desktop.jpg~1d0a) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.special_event {
+    /* REMOVE FOR NOT TOUCHING NAV BAR *
+    /* \\ END REMOVE *
+    overflow: visible; }
+    .com_primary_promo_block.lotto.special_event:before {
+      padding-top: 33.2%;
+      content: "";
+      display: block;
+      width: 5000px;
+      transform-origin: center center;
+      transform: translateX(-2025px); }
+    .com_primary_promo_block.lotto.special_event .com_inner {
+      border: none; }
+    .com_primary_promo_block.lotto.special_event a .com_content .proposition {
+      padding: 60px 0 20px; }
+    .com_primary_promo_block.lotto.special_event a .com_content .cta {
+      margin-left: 0; }
+    .com_primary_promo_block.lotto.special_event.neon:before {
+      background: #000 url(/c/i/bespoke/new-lotto-hero/neon_special_event_desktop-wide.jpg~5294) no-repeat center center; }
+    .com_primary_promo_block.lotto.special_event.band:before {
+      background: #3571ad url(/c/i/bespoke/new-lotto-hero/icecream_mbw_wide_d.jpg~5c3d) no-repeat center center; }
+    .com_primary_promo_block.lotto.special_event.laser:before {
+      background: #000 url(/c/i/bespoke/new-lotto-hero/laser_special_event_desktop-wide.jpg~936d) no-repeat center center; }
+    .com_primary_promo_block.lotto.special_event.confetti:before {
+      background: #367cbc url(/c/i/bespoke/new-lotto-hero/confetti_special_event_desktop-wide.jpg~3645) no-repeat center center; }
+    .com_primary_promo_block.lotto.special_event.match_3_boost:before {
+      background: #105098 url(/c/i/bespoke/new-lotto-hero/match_3_boost_d_wide.jpg~2h2j) no-repeat center center; }
+    .com_primary_promo_block.lotto.special_event.match_5_boost:before {
+      background: aqua; }
+    .com_primary_promo_block.lotto.special_event.doubler:before {
+      background: #000000 url(/c/i/bespoke/new-lotto-hero/lotto-doubler-wide-d.jpg) no-repeat center center; }
+  .com_primary_promo_block.lotto.results.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_results_desktop.jpg~j2kd) no-repeat top left;
+    background-size: contain; }
+
+@media all and (max-width: 980px) {
+  .header_wrapper .main_header {
+    background-color: #f4f3f1; }
+  .com_primary_promo_block.lotto.special_event {
+    margin-top: 0;
+    overflow: hidden; }
+    .com_primary_promo_block.lotto.special_event:before {
+      padding-top: 31%;
+      background-size: contain;
+      width: 100%;
+      transform: none; }
+    .com_primary_promo_block.lotto.special_event .com_inner {
+      border-top: 10px solid #f00000; }
+    .com_primary_promo_block.lotto.special_event a .com_content .proposition {
+      padding: 40px 30px 20px; }
+    .com_primary_promo_block.lotto.special_event a .com_content .cta {
+      margin-left: 30px; }
+    .com_primary_promo_block.lotto.special_event.neon {
+      background: url(/c/i/bespoke/new-lotto-hero/neon_quad_desktop.jpg~9cf6) no-repeat top left;
+      background-size: cover; }
+    .com_primary_promo_block.lotto.special_event.band {
+      background: url(/c/i/bespoke/new-lotto-hero/icecream_mbw_d.jpg~6898) no-repeat top left;
+      background-size: cover; }
+    .com_primary_promo_block.lotto.special_event.laser {
+      background: url(/c/i/bespoke/new-lotto-hero/laser_quad_desktop.jpg~3bdb) no-repeat top left;
+      background-size: cover; }
+    .com_primary_promo_block.lotto.special_event.confetti {
+      background: url(/c/i/bespoke/new-lotto-hero/confetti_quad_desktop.jpg~1d0a) no-repeat top left;
+      background-size: cover; }
+    .com_primary_promo_block.lotto.special_event.match_3_boost:before {
+      background: #105098 url(/c/i/bespoke/new-lotto-hero/match_3_boost_d.jpg~md82) no-repeat top left;
+      background-size: cover; }
+    .com_primary_promo_block.lotto.special_event.doubler:before {
+      background: #000000 url(/c/i/bespoke/new-lotto-hero/lotto-doubler-d.jpg) no-repeat center center; } }
+
+@media all and (max-width: 800px) {
+  .com_primary_promo_block.lotto a .com_content .proposition {
+    padding: 20px 15px 10px; }
+  .com_primary_promo_block.lotto a .com_content .cta {
+    margin-left: 15px; }
+  .com_primary_promo_block.lotto.special_event a .com_content .proposition {
+    padding: 20px 15px 10px; }
+  .com_primary_promo_block.lotto.special_event a .com_content .cta {
+    margin-left: 15px; } }
+
+@media all and (max-width: 640px) {
+  .header_wrapper .main_header {
+    background-color: #f4f3f1; }
+  .com_primary_promo_block.lotto:before {
+    padding-top: 118% !important; }
+  .com_primary_promo_block.lotto[data-logo-position="top"] a .com_content:after {
+    top: auto;
+    bottom: 25px;
+    background-position: bottom right; }
+  .com_primary_promo_block.lotto .com_inner {
+    position: absolute !important; }
+  .com_primary_promo_block.lotto a .com_content {
+    z-index: 1000;
+    background: none;
+    padding: 0; }
+    .com_primary_promo_block.lotto a .com_content:after {
+      width: 30%;
+      height: 200px;
+      bottom: 20px;
+      right: 20px; }
+    .com_primary_promo_block.lotto a .com_content .proposition {
+      font-size: 145%;
+      padding: 50px 50px 30px; }
+      .com_primary_promo_block.lotto a .com_content .proposition .primary_headline {
+        margin-bottom: 5px;
+        width: 100%; }
+      .com_primary_promo_block.lotto a .com_content .proposition .secondary_headline {
+        font-size: 225%;
+        width: 80%; }
+    .com_primary_promo_block.lotto a .com_content .cta {
+      margin: 0 25px; }
+      .com_primary_promo_block.lotto a .com_content .cta .btn {
+        padding: 15px 0 !important;
+        font-size: 150% !important;
+        color: #fff !important;
+        background: #e00000 !important; }
+  .com_primary_promo_block.lotto.roll_0 {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_base_mobile.jpg~5915) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_1.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_rollover_mobile.jpg~f962) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_1.band {
+    background: url(/c/i/bespoke/new-lotto-hero/icecream_roll_and_double_m.jpg~5e4b) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_1.laser {
+    background: url(/c/i/bespoke/new-lotto-hero/laser_rollover_mobile.jpg~7f22) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_1.confetti {
+    background: url(/c/i/bespoke/new-lotto-hero/confetti_rollover_mobile.jpg~bfd5) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_2.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_double_mobile.jpg~1f19) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_2.band {
+    background: url(/c/i/bespoke/new-lotto-hero/icecream_roll_and_double_m.jpg~5e4b) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_2.laser {
+    background: url(/c/i/bespoke/new-lotto-hero/laser_double_mobile.jpg~ae5d) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_2.confetti {
+    background: url(/c/i/bespoke/new-lotto-hero/confetti_double_mobile.jpg~a657) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_3.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_triple_mobile.jpg~09ef) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_3.band {
+    background: url(/c/i/bespoke/new-lotto-hero/iceream_triple_m.jpg~cdde) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_3.laser {
+    background: url(/c/i/bespoke/new-lotto-hero/laser_triple_mobile.jpg~9cdf) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_3.confetti {
+    background: url(/c/i/bespoke/new-lotto-hero/confetti_triple_mobile.jpg~56a4) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_4.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_quad_mobile.jpg~dc99) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_4.band {
+    background: url(/c/i/bespoke/new-lotto-hero/icecream_quad_m.jpg~e4f2) no-repeat top left;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.roll_4.laser {
+    background: url(/c/i/bespoke/new-lotto-hero/laser_quad_mobile.jpg~3962) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.roll_4.confetti {
+    background: url(/c/i/bespoke/new-lotto-hero/confetti_quad_mobile.jpg~080b) no-repeat top left;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.special_event:before {
+    width: 100%;
+    transform: none; }
+  .com_primary_promo_block.lotto.special_event.neon:before {
+    background: #000 url(/c/i/bespoke/new-lotto-hero/neon_special_event_mobile.jpg~bfa0) no-repeat center center;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.special_event.band:before {
+    background: #000 url(/c/i/bespoke/new-lotto-hero/icecream_mbw_m.jpg~bd27) no-repeat center center;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.special_event.laser:before {
+    background: #000 url(/c/i/bespoke/new-lotto-hero/laser_special_event_mobile.jpg~fb1a) no-repeat center center;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.special_event.confetti:before {
+    background: #000 url(/c/i/bespoke/new-lotto-hero/confetti_special_event_mobile.jpg~9430) no-repeat center center;
+    background-size: contain; }
+  .com_primary_promo_block.lotto.special_event.match_3_boost:before {
+    background: #105098 url(/c/i/bespoke/new-lotto-hero/match_3_boost_m.jpg~miqq) no-repeat center center;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.special_event.doubler:before {
+    background: #000000 url(/c/i/bespoke/new-lotto-hero/lotto-doubler-m.jpg) no-repeat center center;
+    background-size: cover; }
+  .com_primary_promo_block.lotto.special_event a .com_content .proposition {
+    padding: 50px 50px 30px; }
+  .com_primary_promo_block.lotto.special_event a .com_content .cta {
+    margin: 0 25px; }
+  .com_primary_promo_block.lotto.results.neon {
+    background: url(/c/i/bespoke/new-lotto-hero/neon_results_mobile.jpg~2jed) no-repeat top left;
+    background-size: contain; } }
+
+@media all and (max-width: 580px) {
+  .com_primary_promo_block.lotto a .com_content .proposition {
+    font-size: 120%;
+    padding: 25px 25px 15px; }
+    .com_primary_promo_block.lotto a .com_content .proposition .primary_headline {
+      margin-right: 15%; } }
+
+@media all and (max-width: 500px) {
+  .com_primary_promo_block.lotto a .com_content:after {
+    bottom: 15px;
+    right: 15px; }
+  .com_primary_promo_block.lotto a .com_content .proposition {
+    font-size: 110%; } }
+
+@media all and (max-width: 440px) {
+  .com_primary_promo_block.lotto a .com_content .proposition {
+    font-size: 100%;
+    padding: 25px 25px 15px; }
+  .com_primary_promo_block.lotto a .com_content .cta {
+    margin: 0 25px; }
+    .com_primary_promo_block.lotto a .com_content .cta .btn {
+      color: #fff !important;
+      background: #e00000 !important; }
+  .com_primary_promo_block.lotto.special_event a .com_content .proposition {
+    padding: 25px; }
+  .com_primary_promo_block.lotto.special_event a .com_content .cta {
+    margin: 0 25px; } }
+
+@media all and (max-width: 400px) {
+  .com_primary_promo_block.lotto a .com_content .proposition {
+    font-size: 70%; }
+  .com_primary_promo_block.lotto a .com_content .cta .btn {
+    font-size: 120% !important;
+    padding: 9px 0 !important; } }
+*/
